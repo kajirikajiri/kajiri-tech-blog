@@ -4,5 +4,10 @@ a {
   @apply text-blue-700 underline font-bold;
 }
 
+blockquote{
+  border-left: 5px solid #ddd;
+  padding-left: 10px;
+}
+
 @tailwind components;
 @tailwind utilities;
