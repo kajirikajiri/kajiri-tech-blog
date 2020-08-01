@@ -68,6 +68,16 @@
     <% } %> <%- include('webpack.ejs') %>
   </head>
   <body>
+    <script>
+      var supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+      var darkmode = localStorage.getItem('darkmode')
+      if (!darkmode && supportDarkMode) {
+        document.body.style.background = '#000'
+      }
+      if (darkmode) {
+        document.body.style.background = '#000'
+      }
+    </script>
     <%- content %>
   </body>
 </html>
