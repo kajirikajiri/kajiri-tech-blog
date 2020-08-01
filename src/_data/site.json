@@ -1,8 +1,8 @@
 {
-  "site_name": "kajiri blog",
-  "title": "kajiri blog",
-  "description": "kajiri日々の日記",
+  "site_name": "Hello",
+  "title": "Hello personal blog",
+  "description": "Blog description",
   "url": "https://example.com",
-  "locale": "ja",
-  "author": "@kajirikajiri"
+  "locale": "en",
+  "author": "Anonymous"
 }
