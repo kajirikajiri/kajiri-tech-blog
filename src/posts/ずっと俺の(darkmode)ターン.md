@@ -37,5 +37,5 @@ browserがdarkmodeかどうか取得する
 あとはそれぞれいい感じにする
 これでフラッシュする現象が直る
 
-### ありがとう
+### ありがとうありがとう
 https://blog.maximeheckel.com/posts/switching-off-the-lights-part-2-fixing-dark-mode-flashing-on-servered-rendered-website

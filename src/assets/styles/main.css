@@ -8,6 +8,51 @@ blockquote{
   border-left: 5px solid #ddd;
   padding-left: 10px;
 }
+h1{
+font-size:20px;
+color: #32ccff;
+}
+h1:before{
+  content: '# ';
+}
+h2{
+font-size:19px;
+color: #99ff32;
+}
+h2:before{
+  content: '## ';
+}
+h3{
+font-size:18px;
+color: #ff9932;
+}
+h3:before{
+  content: '### ';
+}
+h4{
+font-size:17px;
+color: #9932ff;
+}
+h4:before{
+  content: '#### ';
+}
+h5{
+font-size:16px;
+color: #ff3265;
+}
+h5:before{
+  content: '##### ';
+}
+h6{
+font-size:15px;
+color: #3232FF;
+}
+h6:before{
+  content: '###### ';
+}
+.darkmode-toggle{
+  z-index: 10;
+}
 
 @tailwind components;
 @tailwind utilities;
