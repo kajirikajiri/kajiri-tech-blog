@@ -1,7 +1,7 @@
 ---
 title: obsidianを色々設定してみた
 description: input description
-date: 2020-08-01 20:27:35
+date: 2020-07-24 16:11:13
 ---
 
 ### 設定したこと

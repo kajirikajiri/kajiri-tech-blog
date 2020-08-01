@@ -1,7 +1,7 @@
 ---
 title: electronを触ってみた
 description: input description
-date: 2020-08-01 20:26:15
+date: 2020-07-24 16:22:30
 ---
 
 ### とりあえず表示できたやつ

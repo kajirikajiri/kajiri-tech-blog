@@ -1,7 +1,7 @@
 ---
 title: object in array with react typescript
 description: input description
-date: 2020-08-01 20:27:12
+date: 2020-07-19 17:10:55
 ---
 
 # objectの型定義

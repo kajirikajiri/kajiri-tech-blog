@@ -1,7 +1,7 @@
 ---
 title: github profileの流行りに乗ってみた
 description: input description
-date: 2020-08-01 20:26:22
+date: 2020-08-01 16:04:28
 ---
 
 最近githubのprofileがかっこいい人がおおいのでやってみた

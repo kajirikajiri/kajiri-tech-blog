@@ -1,7 +1,7 @@
 ---
 title: obsidianメモ帳をセッティングした
 description: input description
-date: 2020-08-01 20:27:18
+date: 2020-07-19 02:22:58
 ---
 
 # なにについて

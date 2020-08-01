@@ -1,7 +1,7 @@
 ---
-title: なぜimportreactする必要があるのか
+title: なぜimport reactする必要があるのか
 description: input description
-date: 2020-08-01 20:28:00
+date: 2020-07-19 16:40:58
 ---
 
 コンパイルされるときに、React.createElementが挿入されるため。

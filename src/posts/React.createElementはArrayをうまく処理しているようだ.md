@@ -1,7 +1,7 @@
 ---
 title: React.createElementはArrayをうまく処理しているようだ
 description: input description
-date: 2020-08-01 20:27:44
+date: 2020-07-19 18:52:46
 ---
 
 https://ja.reactjs.org/docs/lists-and-keys.html#rendering-multiple-components

@@ -1,7 +1,7 @@
 ---
 title: githubのvaultに入った
 description: input description
-date: 2020-08-01 20:26:37
+date: 2020-07-18 20:45:54
 ---
 
 有名なリポジトリが入るんでしょって思ってたら入ったよ。うれしいよ
