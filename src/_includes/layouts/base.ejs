@@ -20,7 +20,7 @@
     />
     <meta property="og:locale" content="<%= site.locale %>" />
     <meta property="og:site_name" content="<%= site.site_name %>" />
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
     <script>
       function addDarkmodeWidget() {
       const option = {
@@ -37,7 +37,7 @@
       }
         new Darkmode(option).showWidget();
       }
-    window.addEventListener('load', addDarkmodeWidget);
+      window.addEventListener('load', addDarkmodeWidget);
     </script>
     <% if (locals.tags == "posts") { %>
     <meta property="og:type" content="article" />
