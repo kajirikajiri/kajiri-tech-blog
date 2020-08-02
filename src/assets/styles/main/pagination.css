@@ -1,0 +1,3 @@
+select[name=pagination-jump] option:first-child{
+  display:none;
+}

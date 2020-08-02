@@ -4,9 +4,7 @@
 @import url("./main/markdown.css");
 @import url("./main/override-darkmode-js.css");
 @import url("./main/override-google-search-within-site.css");
-select.pagination-jump option:first-child{
-  display:none;
-}
+@import url("./main/pagination.css");
 
 @tailwind components;
 @tailwind utilities;

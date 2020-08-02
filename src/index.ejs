@@ -26,13 +26,13 @@ eleventyComputed:
   <% } %> <% if (pagination.next) { %>
   <a href="<%= pagination.next.replace(/index.html$/, "") %>">Older Posts</a>
   <% } %>
-  <select class="pagination-jump">
+  <select name="pagination-jump">
     <option><%= pagination.pageNumber + 1 %></option>
   </select>
 </div>
 
 <script>
-  const selectElement = document.querySelector('select.pagination-jump')
+  const selectElement = document.querySelector('select[name=pagination-jump]')
   selectElement.addEventListener('change', function(){
     const index = this.selectedIndex
     const href = getHrefTarget(index)
