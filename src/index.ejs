@@ -27,7 +27,7 @@ eleventyComputed:
   <a href="<%= pagination.next.replace(/index.html$/, "") %>">Older Posts</a>
   <% } %>
   <select class="pagination-jump">
-    <option><%= pagination.size - 1 %></option>
+    <option><%= pagination.pageNumber + 1 %></option>
   </select>
 </div>
 
