@@ -24,7 +24,7 @@ cron.* /var/log/cron.log
 これで/var/log/cron.logにログが出力される
 
 ## リスタートとか、statusとか
-https://qiita.com/SenK/items/f5164e4e642de167e1a5#comment-0f096172d03e04c2f2fc
+[https://qiita.com/SenK/items/f5164e4e642de167e1a5#comment-0f096172d03e04c2f2fc](https://qiita.com/SenK/items/f5164e4e642de167e1a5#comment-0f096172d03e04c2f2fc)
 
 どうやら、wsl2 ?? Ubuntu20.04??ではコマンドが違うようで
 
@@ -45,12 +45,12 @@ sudo /etc/init.d/cron status
 ## crontab -r封印
 crontab -e 試してたら、いきなりコマンドが消えて？？なったけど、どうやらコマンドが消えたようだ
 
-https://qiita.com/kawaz/items/1620300551b5b3f2eccc
+[https://qiita.com/kawaz/items/1620300551b5b3f2eccc](https://qiita.com/kawaz/items/1620300551b5b3f2eccc)
 
 これを参考に-rを封印した
 
 ## 便利
-https://crontab.guru/#0_16_*_*_*
+[https://crontab.guru/#0_16_*_*_*](https://crontab.guru/#0_16_*_*_*)
 
 # 今回のgit
-https://github.com/kajirikajiri/cron
+[https://github.com/kajirikajiri/cron](https://github.com/kajirikajiri/cron)

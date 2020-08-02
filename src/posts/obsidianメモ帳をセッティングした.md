@@ -5,7 +5,7 @@ date: 2020-07-19 02:22:58
 ---
 
 # なにについて
-https://obsidian.md/
+[https://obsidian.md/](https://obsidian.md/)
 
 # こまったこと
 wsl2に対応していない？ || linuxに対応していない？みたいでwindowsにwindowsインストーラーでインストールしたら、wsl2内部のディレクトリを選択できなかった。

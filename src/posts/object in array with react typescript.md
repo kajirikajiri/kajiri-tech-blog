@@ -5,7 +5,7 @@ date: 2020-07-19 17:10:55
 ---
 
 # objectの型定義
-https://qiita.com/hida/items/fb0379353bbb71f8191b
+[https://qiita.com/hida/items/fb0379353bbb71f8191b](https://qiita.com/hida/items/fb0379353bbb71f8191b)
 
 > objectArray: {key: string}[];             // 配列内にオブジェクト
 
@@ -35,7 +35,7 @@ const hoge: Tasks = [
 
 エラーなのか。。。
 
-https://stackoverflow.com/a/25470775/10677105
+[https://stackoverflow.com/a/25470775/10677105](https://stackoverflow.com/a/25470775/10677105)
 
 なるほど
 
@@ -73,7 +73,7 @@ const hoge: Tasks[] = [
 
 そういえばさっき、index: numberをNumberって書いたらエラーでた。。。
 
-https://saku.io/difference-string-types-in-typescript/
+[https://saku.io/difference-string-types-in-typescript/](https://saku.io/difference-string-types-in-typescript/)
 > 結論は、 String はJavaScriptの文字列型であり、 string はTypeScriptの文字列型です。
 
 なるほど、めんどうだな。

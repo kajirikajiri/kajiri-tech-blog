@@ -1,9 +1,12 @@
 @tailwind base;
 
-@import url("./default.css");
-@import url("./markdown.css");
-@import url("./override-darkmode-js.css");
-@import url("./override-google-search-within-site.css");
+@import url("./main/default.css");
+@import url("./main/markdown.css");
+@import url("./main/override-darkmode-js.css");
+@import url("./main/override-google-search-within-site.css");
+select.pagination-jump option:first-child{
+  display:none;
+}
 
 @tailwind components;
 @tailwind utilities;

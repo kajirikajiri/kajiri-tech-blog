@@ -4,13 +4,13 @@ description: input description
 date: 2020-07-19 18:52:46
 ---
 
-https://ja.reactjs.org/docs/lists-and-keys.html#rendering-multiple-components
+[https://ja.reactjs.org/docs/lists-and-keys.html#rendering-multiple-components](https://ja.reactjs.org/docs/lists-and-keys.html#rendering-multiple-components)
 > 要素の集合を作成し中括弧 {} で囲むことで JSX に含めることができます。
 
-https://ja.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx
+[https://ja.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx](https://ja.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx)
 > Babel は JSX を React.createElement() の呼び出しへとコンパイルします。
 
-https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects
+[https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects](https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects)
 > このようなオブジェクトは “React 要素” と呼ばれます。これらは画面に表示したいものの説明書きとして考えることができます。React はこれらのオブジェクトを読み取り、DOM を構築して最新に保ちます。
 
 ReactElementじゃないのか？？ React要素と同じことだと思うけど、ReactElement === React要素ではない気がする
@@ -30,7 +30,7 @@ function list (tasks: Tasks[]): ReactElement {
 
 しかし、ReactElement[]をうまいこと展開してくれるのは便利。
 
-https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects
+[https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects](https://ja.reactjs.org/docs/introducing-jsx.html#jsx-represents-objects)
 > 以下の 2 つの例は等価です：
 
 ```javascript

@@ -10,7 +10,7 @@ date: 2020-07-18 15:59:06
 
 # 気になった記事
 3. 微妙に再計算されない/されるcomputed
-https://ics.media/entry/200716/
+[https://ics.media/entry/200716/](https://ics.media/entry/200716/)
 
 # 読んてみて
 最初記事の内容をよく読まず、computedにリアクティブな値(this.hogeとか)を渡して試してみた。
@@ -77,7 +77,7 @@ export default {
 ```
 
 # 実際に試してみた
-https://kajirikajiri.netlify.app/#/computed-failed
+[https://kajirikajiri.netlify.app/#/computed-failed](https://kajirikajiri.netlify.app/#/computed-failed)
 
 # github
-https://github.com/kajirikajiri/homepage/blob/master/src/views/ComputedFailed.vue
+[https://github.com/kajirikajiri/homepage/blob/master/src/views/ComputedFailed.vue](https://github.com/kajirikajiri/homepage/blob/master/src/views/ComputedFailed.vue)

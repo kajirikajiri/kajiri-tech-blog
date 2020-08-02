@@ -1,0 +1,9 @@
+<script>
+  (function(){
+    const aHrefElements = document.querySelectorAll('a')
+    if(!aHrefElements) return;
+    aHrefElements.forEach(e=>{
+      e.setAttribute('target', '_blank')
+    })
+  })()
+</script>

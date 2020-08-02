@@ -12,7 +12,7 @@ IFS='
 '
 ```
 
-https://ja.stackoverflow.com/a/18000
+[https://ja.stackoverflow.com/a/18000](https://ja.stackoverflow.com/a/18000)
 
 
 > なお、bash や zsh であれば $'\n' といった記法が使用できます。
