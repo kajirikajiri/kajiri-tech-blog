@@ -1,0 +1,58 @@
+.post blockquote{
+  border-left: 5px solid #ddd;
+  padding-left: 10px;
+}
+.post h1{
+  font-size:20px !important;
+  color: #32ccff;
+}
+.post h1:before{
+  content: '# ';
+}
+.post h2{
+  font-size:19px !important;
+  color: #99ff32;
+}
+.post h2:before{
+  content: '## ';
+}
+.post h3{
+  font-size:18px !important;
+  color: #ff9932;
+}
+.post h3:before{
+  content: '### ';
+}
+.post h4{
+  font-size:17px !important;
+  color: #9932ff;
+}
+.post h4:before{
+  content: '#### ';
+}
+.post h5{
+  font-size:16px !important;
+  color: #ff3265;
+}
+.post h5:before{
+  content: '##### ';
+}
+.post h6{
+  font-size:15px !important;
+  color: #3232FF;
+}
+.post h6:before{
+  content: '###### ';
+}
+.post img{
+  display: block !important;
+  border: #7e7e7e solid 1px;
+  border-radius: 4px;
+}
+.post ol,.post ul{
+  list-style: revert !important;
+  padding: 0 0 0 20px !important;
+}
+.post a {
+  text-decoration: underline !important;
+}

@@ -68,16 +68,10 @@
     <% } %> <%- include('webpack.ejs') %>
   </head>
   <body style="word-break:break-all;padding:.5em;">
-    <script>
-      var supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-      var darkmode = localStorage.getItem('darkmode')
-      if (!darkmode && supportDarkMode) {
-        document.body.style.background = '#000'
-      }
-      if (darkmode) {
-        document.body.style.background = '#000'
-      }
-    </script>
+    <%- include('./setBackgroundColor.ejs') %>
     <%- content %>
+    <%- include('./importGoogleSearchWithinSite.ejs') %>
+    <%- include('./overrideGoogleSearchWithinSite.ejs') %>
+    <div style="width:100%;height:80px;"></div>
   </body>
 </html>
