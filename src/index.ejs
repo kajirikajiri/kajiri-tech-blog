@@ -29,5 +29,27 @@ eleventyComputed:
   <select class="pagination-jump">
     <option><%= pagination.size - 1 %></option>
   </select>
-  <%- include('./index/jumpPage.ejs'), {paginationSize: pagination.size} %>
 </div>
+
+<script>
+  const selectElement = document.querySelector('select.pagination-jump')
+  selectElement.addEventListener('change', function(){
+    const index = this.selectedIndex
+    const href = getHrefTarget(index)
+    location.href = href
+  })
+  const pageNumberList = [...Array(Number("<%= pagination.size - 1 %>")).keys()].map(i => ++i)
+  pageNumberList.forEach(n=>{
+    const optionElement = document.createElement('option')
+    optionElement.innerText = n
+    selectElement.appendChild(optionElement)
+  })
+
+  function getHrefTarget(pageNumber){
+    if (pageNumber === 1) {
+      return '/'
+    }else{
+      return '/page' + pageNumber
+    }
+  }
+</script>
