@@ -9,7 +9,7 @@ eleventyComputed:
   title: '<% if (pagination.pageNumber > 0) { %><%= `Page ${pagination.pageNumber + 1} | ${site.title}` %><% } else { %><%= site.title %><% } %>'
 ---
 
-<h1 class="font-bold text-3xl" style="color:#32ccff;"># <%= site.title %></h1>
+<h1 class="font-bold text-3xl" style="color:#3258ff;"># <%= site.title %></h1>
 
 <ul>
   <% list.forEach((post) => { %>
@@ -26,9 +26,12 @@ eleventyComputed:
   <% } %> <% if (pagination.next) { %>
   <a href="<%= pagination.next.replace(/index.html$/, "") %>">Older Posts</a>
   <% } %>
-  <select name="pagination-jump">
-    <option><%= pagination.pageNumber + 1 %></option>
-  </select>
+  <label>
+    🔖
+    <select name="pagination-jump">
+      <option><%= pagination.pageNumber + 1 %></option>
+    </select>
+  </label>
 </div>
 
 <script>

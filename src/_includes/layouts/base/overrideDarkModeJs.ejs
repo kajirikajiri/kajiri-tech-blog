@@ -1,0 +1,10 @@
+<script>
+  timer = setInterval(function(){
+    const darkModeElement = document.querySelector('.darkmode-toggle')
+    if (darkModeElement){
+      clearInterval(timer)
+      console.log(darkModeElement)
+      darkModeElement.removeAttribute('aria-checked')
+    }
+  }, 500)
+</script>
