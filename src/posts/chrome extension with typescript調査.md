@@ -1,3 +1,8 @@
+---
+title: chrome extension with typescript調査
+description: input description
+date: 2020-08-03 14:14:04
+---
 # 良さそうなもの
 ## chromeのmock
 - [https://github.com/acvetkov/sinon-chrome](https://github.com/acvetkov/sinon-chrome)
