@@ -8,8 +8,11 @@ date: 2020-08-10 23:12:49
 
 # やったこと
 circleciでpushごとにテスト
+
 jestでunitテスト, integrationテスト
+
 typescriptでstaticなテスト
+
 予定: e2e
 
 # 参考
