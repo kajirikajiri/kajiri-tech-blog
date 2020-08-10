@@ -19,9 +19,7 @@ mozillaが作っているようだ。
 
 非常に良さそうだったので試してみたら普通に動いた。
 
-問題として、テスト用のmockを探したが
-<a href="https://github.com/acvetkov/sinon-chrome">前回見つかったもの</a>
-しかなかった
+問題として、テスト用のmockを探したが<a href="https://github.com/acvetkov/sinon-chrome">前回見つかったもの</a>しかなかった
 
 前回見つかったものはcallbackを想定して作られているのでムリだと思った
 

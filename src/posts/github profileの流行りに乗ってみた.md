@@ -22,19 +22,24 @@ date: 2020-08-01 16:04:28
 だれかいい感じで作ってるひとはいないかな。。。
 
 [https://github.com/terrytangyuan](https://github.com/terrytangyuan)
+
 シンプルでかっこいい
 まねしよう
 
 [https://shields.io/]
+
 なるほど、こんなサイトが合ったのか
 
 [https://qiita.com/s-yoshiki/items/436bbe1f7160b610b05c](https://qiita.com/s-yoshiki/items/436bbe1f7160b610b05c)
+
 ロゴが大量にあるらしい
 
 [https://simpleicons.org/](https://simpleicons.org/)
+
 大量だ大量にある
 
 ![](/assets/images/posts/github_profile_complete.png)
+
 完成しました
 
 

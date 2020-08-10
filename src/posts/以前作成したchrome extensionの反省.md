@@ -1,3 +1,9 @@
+---
+title: 以前作成したchrome extensionの反省
+description: input description
+date: 2020-08-09 15:16:17
+---
+
 # テストを作成できることを事前に確認しなかった
 - 最初に確認するべきだった。そういう意味ではないと思うが、TDDテスト駆動開発を身に着けていたらこうはならなかったかもしれない
 - export module, require構文を使うにも、色々設定が必要だった。
