@@ -4,7 +4,7 @@ description: input description
 date: 2020-08-10 23:12:49
 ---
 # 青果物
-https://github.com/kajirikajiri/react-typescript-jest-lint
+[https://github.com/kajirikajiri/react-typescript-jest-lint](https://github.com/kajirikajiri/react-typescript-jest-lint)
 
 # やったこと
 circleciでpushごとにテスト
@@ -13,7 +13,7 @@ typescriptでstaticなテスト
 予定: e2e
 
 # 参考
-https://qiita.com/naoking99/items/3fd211deb8711fae8204
+[https://qiita.com/naoking99/items/3fd211deb8711fae8204](https://qiita.com/naoking99/items/3fd211deb8711fae8204)
 勉強になった
 
 static, unit, integration, end to endのテストをバランスよくやる
