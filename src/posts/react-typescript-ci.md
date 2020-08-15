@@ -1,3 +1,8 @@
+---
+title: react-typescript-ci
+description: input description
+date: 2020-08-15 14:41:50
+---
 # react-tutorialにcircle-ci, typescript, e2e, jest, lintを詰め込んだ
 
 ## 青果物
