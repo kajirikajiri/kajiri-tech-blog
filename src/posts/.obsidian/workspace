@@ -1,22 +1,3 @@
----
-title: workspace
-description: description
-date: 2020-08-23 18:07:33
----
-<!-- history area start -->
-<details><summary>commit history</summary><div><ol>
-<li>2020/08/23 17:24:03 f619289</li>
-<li>2020/08/23 16:41:19 b831426</li>
-</ol></div></details>
-<!-- history area end -->
-<!-- toc area start -->
-<details><summary>headline</summary><div>
-<!-- START doctoc -->
-<!-- END doctoc -->
-
-</div></details>
-
-<!-- toc area end -->
 {
   "main": {
     "id": "4d5ac467335fc2f3",
