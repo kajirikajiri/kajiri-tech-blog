@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-23 17:23:57
+date: 2020-08-23 18:07:33
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/23 17:24:03 f619289</li>
 <li>2020/08/23 16:41:19 b831426</li>
 </ol></div></details>
 <!-- history area end -->
@@ -24,11 +25,10 @@ date: 2020-08-23 17:23:57
       {
         "id": "b250958773304c14",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidianと連携した.md",
+            "file": "20200823172358obsidianと連携した.md",
             "mode": "source"
           }
         },
@@ -37,10 +37,11 @@ date: 2020-08-23 17:23:57
       {
         "id": "211d5c350ecebbe2",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidianと連携した.md",
+            "file": "20200823172358obsidianと連携した.md",
             "mode": "source"
           }
         },
@@ -93,7 +94,7 @@ date: 2020-08-23 17:23:57
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidianと連携した.md"
+                "file": "20200823172358obsidianと連携した.md"
               }
             }
           },
@@ -113,10 +114,10 @@ date: 2020-08-23 17:23:57
     "width": 300
   },
   "lastOpenFiles": [
+    "20200823172358obsidianと連携した.md",
     "2020-08-23 171047obsidianと連携した.md",
     "obsidianと連携した.md",
     "20200823150049vscodeでmarkdownの日付を入力するsnipet.md",
-    "Untitled.md",
-    "20200823150726test.md"
+    "Untitled.md"
   ]
 }

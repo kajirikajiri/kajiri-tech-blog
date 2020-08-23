@@ -17,7 +17,7 @@
     "format:json": "prettier '**/*.json' --write",
     "format": "run-s format:*",
     "lint": "eslint --ext .js .",
-    "commit": "git add ./src/posts/ && ./node_modules/.bin/ts-node ./markdown-manager/runner.ts && ./doctoc.sh && git add . && git commit -m 'yarn commit'"
+    "commit": "git add ./src/posts/ && ./node_modules/.bin/ts-node ./markdown-manager/runner.ts && ./doctoc.sh && git add . && git commit -m 'yarn commit' && git push"
   },
   "license": "ISC",
   "devDependencies": {
