@@ -1,8 +1,21 @@
 ---
 title: chrome extension with typescript調査2
 description: input description
-date: 2020-08-08 21:38:38
+date: 2020-08-23 18:05:35
 ---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+</div></details>
+
+<!-- toc area end -->
 <a href="chrome%20extension%20with%20typescript調査">調査一回目はこっち</a>
 
 今日はwebextension-polyfillを調査した

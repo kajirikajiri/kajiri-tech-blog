@@ -1,8 +1,26 @@
 ---
 title: object in array with react typescript
 description: input description
-date: 2020-07-19 17:10:55
+date: 2020-08-23 18:05:35
 ---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [objectの型定義](#object%E3%81%AE%E5%9E%8B%E5%AE%9A%E7%BE%A9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+</div></details>
+
+<!-- toc area end -->
 
 # objectの型定義
 [https://qiita.com/hida/items/fb0379353bbb71f8191b](https://qiita.com/hida/items/fb0379353bbb71f8191b)
