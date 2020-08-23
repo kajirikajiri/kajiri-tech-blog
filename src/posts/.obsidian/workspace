@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "4d5ac467335fc2f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2efb347d29656b3c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "20200823150726test.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "930d9a0413a2a7e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b530888b42a271cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6040fd30b95ae84",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e807bdb7583d0e4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "405860c658621b62",
+    "type": "split",
+    "children": [
+      {
+        "id": "11f5a57cca19d4c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52e7c97d43901106",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20200823150726test.md"
+              }
+            }
+          },
+          {
+            "id": "fca283e7bb4096e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "20200823150726test.md",
+    "20200823150049bashで空白を含むファイルに対応する.md",
+    "考察.md",
+    "2020-07-19 Sun.md",
+    "Untitled.md"
+  ]
+}
