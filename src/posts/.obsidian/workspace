@@ -1,32 +1,40 @@
+---
+title: workspace
+description: description
+date: 2020-08-23 20:37:57
+---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+<li>2020/08/23 18:34:07 940e66a</li>
+<li>2020/08/23 18:07:34 dc84b69</li>
+<li>2020/08/23 17:24:03 f619289</li>
+<li>2020/08/23 16:41:19 b831426</li>
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+</div></details>
+
+<!-- toc area end -->
 {
   "main": {
     "id": "4d5ac467335fc2f3",
     "type": "split",
     "children": [
       {
-        "id": "b250958773304c14",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "20200823172358obsidianと連携した.md",
-            "mode": "source"
-          }
-        },
-        "group": "0cfe63df93864eee"
-      },
-      {
-        "id": "211d5c350ecebbe2",
+        "id": "56a970333a1787c2",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200823172358obsidianと連携した.md",
+            "file": "memo.md",
             "mode": "source"
           }
-        },
-        "group": "0cfe63df93864eee"
+        }
       }
     ],
     "direction": "vertical"
@@ -75,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200823172358obsidianと連携した.md"
+                "file": "memo.md"
               }
             }
           },
@@ -95,10 +103,10 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Untitled.md",
+    "20200823195458-memo.md",
     "20200823172358obsidianと連携した.md",
     "2020-08-23 171047obsidianと連携した.md",
-    "obsidianと連携した.md",
-    "20200823150049vscodeでmarkdownの日付を入力するsnipet.md",
-    "Untitled.md"
+    "obsidianと連携した.md"
   ]
 }
