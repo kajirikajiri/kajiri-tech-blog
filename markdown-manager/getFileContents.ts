@@ -1,4 +1,5 @@
 import fs from 'fs'
+import path from 'path'
 import readline from 'readline'
 import {getCurrentTime} from './getCurrentTime'
 import {getCommitDateList} from './getCommitDateList'
@@ -10,7 +11,7 @@ export const getFileContents = (fileName:string):Promise<string>=>{
   return new Promise((resolve, rejects)=>{
     const rs = fs.createReadStream(fileName)
     const rl = readline.createInterface(rs);
-    const headerTitle = 'title: ' + fileName
+    const headerTitle = 'title: ' + path.basename(fileName)
     const headerDescription = 'description: description'
     const headerDate = 'date: ' + getCurrentTime()
     const history = `<!-- history area start -->\n<details><summary>commit history</summary><div><ol>\n${getCommitDateList(fileName)}\n</ol></div></details>\n<!-- history area end -->\n`
