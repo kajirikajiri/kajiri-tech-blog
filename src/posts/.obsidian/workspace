@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-24 11:28:34
+date: 2020-08-24 11:31:08
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/24 11:28:36 9ed9076</li>
 <li>2020/08/23 20:37:59 63439a6</li>
 <li>2020/08/23 18:34:07 940e66a</li>
 <li>2020/08/23 18:07:34 dc84b69</li>
@@ -32,7 +33,7 @@ date: 2020-08-24 11:28:34
         "state": {
           "type": "markdown",
           "state": {
-            "file": "memo.md",
+            "file": "20200824112835-memo.md",
             "mode": "source"
           }
         }
@@ -84,7 +85,7 @@ date: 2020-08-24 11:28:34
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memo.md"
+                "file": "20200824112835-memo.md"
               }
             }
           },
@@ -104,10 +105,10 @@ date: 2020-08-24 11:28:34
     "width": 300
   },
   "lastOpenFiles": [
+    "20200824112835-memo.md",
     "Untitled.md",
     "20200823203758-memo.md",
     "20200823195458-memo.md",
-    "20200823172358obsidianと連携した.md",
-    "2020-08-23 171047obsidianと連携した.md"
+    "20200823172358obsidianと連携した.md"
   ]
 }
