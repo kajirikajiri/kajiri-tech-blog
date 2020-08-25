@@ -1,0 +1,10 @@
+<script>
+  (function(){
+    const headlines = document.querySelectorAll("h1, h2, h3, h4, h5, h6")
+    headlines.forEach(headline=>{
+      const text = headline.innerHTML
+      const encodedText = encodeURI(text)
+      headline.id = encodedText
+    })
+  })()
+</script>
