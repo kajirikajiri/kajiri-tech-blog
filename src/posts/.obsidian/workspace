@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-24 11:31:08
+date: 2020-08-26 14:23:02
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/24 11:31:12 61617e6</li>
 <li>2020/08/24 11:28:36 9ed9076</li>
 <li>2020/08/23 20:37:59 63439a6</li>
 <li>2020/08/23 18:34:07 940e66a</li>
@@ -23,17 +24,17 @@ date: 2020-08-24 11:31:08
 <!-- toc area end -->
 {
   "main": {
-    "id": "4d5ac467335fc2f3",
+    "id": "a2997e247310fb95",
     "type": "split",
     "children": [
       {
-        "id": "56a970333a1787c2",
+        "id": "fdab1f549c996aee",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200824112835-memo.md",
+            "file": "module.exportsでError.md",
             "mode": "source"
           }
         }
@@ -42,15 +43,15 @@ date: 2020-08-24 11:31:08
     "direction": "vertical"
   },
   "left": {
-    "id": "930d9a0413a2a7e3",
+    "id": "e3142605c63a8008",
     "type": "split",
     "children": [
       {
-        "id": "b530888b42a271cf",
+        "id": "86915bc64546d3f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b6040fd30b95ae84",
+            "id": "94a3125f217c2cd0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +59,7 @@ date: 2020-08-24 11:31:08
             }
           },
           {
-            "id": "e807bdb7583d0e4d",
+            "id": "dad0c7ac9b3295f1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -72,43 +73,39 @@ date: 2020-08-24 11:31:08
     "width": 300
   },
   "right": {
-    "id": "405860c658621b62",
+    "id": "c082cb525febb4db",
     "type": "split",
     "children": [
       {
-        "id": "11f5a57cca19d4c0",
+        "id": "d0504ed0b543d668",
         "type": "tabs",
         "children": [
           {
-            "id": "52e7c97d43901106",
+            "id": "aaef5502483bb485",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200824112835-memo.md"
+                "file": "module.exportsでError.md"
               }
             }
           },
           {
-            "id": "fca283e7bb4096e6",
+            "id": "fbf8c6d6d852834a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "20200824112835-memo.md",
-    "Untitled.md",
-    "20200823203758-memo.md",
-    "20200823195458-memo.md",
-    "20200823172358obsidianと連携した.md"
+    "Untitled.md"
   ]
 }
