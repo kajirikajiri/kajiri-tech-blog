@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-27 11:50:50
+date: 2020-08-27 11:52:49
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/27 11:50:52 fc716e5</li>
 <li>2020/08/26 14:23:04 85b84cc</li>
 <li>2020/08/24 11:31:12 61617e6</li>
 <li>2020/08/24 11:28:36 9ed9076</li>
@@ -35,7 +36,7 @@ date: 2020-08-27 11:50:50
         "state": {
           "type": "markdown",
           "state": {
-            "file": "memo.md",
+            "file": "20200827115051-memo.md",
             "mode": "source"
           }
         }
@@ -87,7 +88,7 @@ date: 2020-08-27 11:50:50
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memo.md"
+                "file": "20200827115051-memo.md"
               }
             }
           },
@@ -107,6 +108,7 @@ date: 2020-08-27 11:50:50
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200827115051-memo.md",
     "Untitled.md"
   ]
 }
