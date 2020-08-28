@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-27 11:52:49
+date: 2020-08-28 12:13:03
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/27 11:52:55 bfc2e43</li>
 <li>2020/08/27 11:50:52 fc716e5</li>
 <li>2020/08/26 14:23:04 85b84cc</li>
 <li>2020/08/24 11:31:12 61617e6</li>
@@ -30,13 +31,13 @@ date: 2020-08-27 11:52:49
     "type": "split",
     "children": [
       {
-        "id": "fdab1f549c996aee",
+        "id": "4e1a2e8e7f1687f4",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200827115051-memo.md",
+            "file": "testcafeで要素が表示されるのを待機しない時.md",
             "mode": "source"
           }
         }
@@ -88,7 +89,7 @@ date: 2020-08-27 11:52:49
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200827115051-memo.md"
+                "file": "testcafeで要素が表示されるのを待機しない時.md"
               }
             }
           },
@@ -108,7 +109,8 @@ date: 2020-08-27 11:52:49
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200827115051-memo.md",
-    "Untitled.md"
+    "testcafeで要素が表示されるのを待機しない時.md",
+    "Untitled.md",
+    "20200827115051-memo.md"
   ]
 }
