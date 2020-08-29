@@ -5,7 +5,7 @@ import {addDate} from './addDate'
 import {changeFileName} from './changeFileName'
 import {getMdList} from './getMdList'
 
-export const addDateToFileNamePrefix = (dir:string)=>{
+const addDateToFileNamePrefix = (dir:string)=>{
 
   const fileNameList:string[] = fs.readdirSync(dir);
 
@@ -20,8 +20,5 @@ export const addDateToFileNamePrefix = (dir:string)=>{
   changeFileName(filePathList)
 }
 
-// wipが書いてあったファイルは最後に出力する
-// headerの下にtocをつける
-  // <!-- toc space start, end -->
-// 一番下に変更履歴をつける
-  // <!-- commit log start, end -->
+const dir:string = './src/posts/'
+addDateToFileNamePrefix(dir)
