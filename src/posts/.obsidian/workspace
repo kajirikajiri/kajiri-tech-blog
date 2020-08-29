@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-29 15:43:19
+date: 2020-08-29 17:03:24
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/29 15:43:21 30f7210</li>
 <li>2020/08/28 12:13:06 c20d2dc</li>
 <li>2020/08/27 11:52:55 bfc2e43</li>
 <li>2020/08/27 11:50:52 fc716e5</li>
@@ -38,7 +39,7 @@ date: 2020-08-29 15:43:19
         "state": {
           "type": "markdown",
           "state": {
-            "file": "read-book.md",
+            "file": "markdown-test.md",
             "mode": "source"
           }
         }
@@ -90,7 +91,7 @@ date: 2020-08-29 15:43:19
             "state": {
               "type": "backlink",
               "state": {
-                "file": "read-book.md"
+                "file": "markdown-test.md"
               }
             }
           },
@@ -110,7 +111,8 @@ date: 2020-08-29 15:43:19
     "collapsed": true
   },
   "lastOpenFiles": [
-    "read-book.md",
-    "Untitled.md"
+    "Untitled.md",
+    "20200823150049markdown-test.md",
+    "read-book.md"
   ]
 }
