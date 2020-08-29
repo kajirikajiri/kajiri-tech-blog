@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-08-28 12:13:03
+date: 2020-08-29 15:43:19
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/08/28 12:13:06 c20d2dc</li>
 <li>2020/08/27 11:52:55 bfc2e43</li>
 <li>2020/08/27 11:50:52 fc716e5</li>
 <li>2020/08/26 14:23:04 85b84cc</li>
@@ -27,17 +28,17 @@ date: 2020-08-28 12:13:03
 <!-- toc area end -->
 {
   "main": {
-    "id": "a2997e247310fb95",
+    "id": "309ad8f39f086fe5",
     "type": "split",
     "children": [
       {
-        "id": "4e1a2e8e7f1687f4",
+        "id": "6a2bf7c5c83f1ddc",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "testcafeで要素が表示されるのを待機しない時.md",
+            "file": "read-book.md",
             "mode": "source"
           }
         }
@@ -46,15 +47,15 @@ date: 2020-08-28 12:13:03
     "direction": "vertical"
   },
   "left": {
-    "id": "e3142605c63a8008",
+    "id": "c2ea951b32a8f1f1",
     "type": "split",
     "children": [
       {
-        "id": "86915bc64546d3f3",
+        "id": "46c7e52432c23e27",
         "type": "tabs",
         "children": [
           {
-            "id": "94a3125f217c2cd0",
+            "id": "a95c5ebd8fb367bf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +63,7 @@ date: 2020-08-28 12:13:03
             }
           },
           {
-            "id": "dad0c7ac9b3295f1",
+            "id": "f0e2e361e91095d6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -76,25 +77,25 @@ date: 2020-08-28 12:13:03
     "width": 300
   },
   "right": {
-    "id": "c082cb525febb4db",
+    "id": "07a0e7d082688f5e",
     "type": "split",
     "children": [
       {
-        "id": "d0504ed0b543d668",
+        "id": "f4002be9fa74162d",
         "type": "tabs",
         "children": [
           {
-            "id": "aaef5502483bb485",
+            "id": "76af8973e46585f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testcafeで要素が表示されるのを待機しない時.md"
+                "file": "read-book.md"
               }
             }
           },
           {
-            "id": "fbf8c6d6d852834a",
+            "id": "cce784fe4481184d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -109,8 +110,7 @@ date: 2020-08-28 12:13:03
     "collapsed": true
   },
   "lastOpenFiles": [
-    "testcafeで要素が表示されるのを待機しない時.md",
-    "Untitled.md",
-    "20200827115051-memo.md"
+    "read-book.md",
+    "Untitled.md"
   ]
 }
