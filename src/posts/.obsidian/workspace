@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-01 11:31:02
+date: 2020-09-04 11:47:28
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/01 11:31:11 f8e3ef5</li>
 <li>2020/08/30 15:14:20 b899cf1</li>
 <li>2020/08/29 21:56:36 35a39aa</li>
 <li>2020/08/29 18:45:03 acb96ff</li>
@@ -43,7 +44,7 @@ date: 2020-09-01 11:31:02
         "state": {
           "type": "markdown",
           "state": {
-            "file": "reactでborderBottomを内側にだけ有効にしたい.md",
+            "file": "reactで空のatcを実行したらErrorが消えた.md",
             "mode": "source"
           }
         },
@@ -55,8 +56,8 @@ date: 2020-09-01 11:31:02
         "state": {
           "type": "markdown",
           "state": {
-            "file": "reactでborderBottomを内側にだけ有効にしたい.md",
-            "mode": "source"
+            "file": "reactで空のatcを実行したらErrorが消えた.md",
+            "mode": "preview"
           }
         },
         "group": "acf7f87beba3618d"
@@ -108,7 +109,7 @@ date: 2020-09-01 11:31:02
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reactでborderBottomを内側にだけ有効にしたい.md"
+                "file": "reactで空のatcを実行したらErrorが消えた.md"
               }
             }
           },
@@ -128,10 +129,10 @@ date: 2020-09-01 11:31:02
     "collapsed": true
   },
   "lastOpenFiles": [
+    "hoge.md",
     "Untitled.md",
+    "20200901113110-reactでborderBottomを内側にだけ有効にしたい.md",
     "20200830151419-セミコロンが必要な場面に出会った.md",
-    "20200830151419-read-book.md",
-    "read-book.md",
-    "20200829215635-read-book.md"
+    "20200830151419-read-book.md"
   ]
 }
