@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-05 14:55:49
+date: 2020-09-05 16:22:51
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/05 14:56:02 c6be393</li>
 <li>2020/09/04 11:47:38 a56b1dc</li>
 <li>2020/09/01 11:31:11 f8e3ef5</li>
 <li>2020/08/30 15:14:20 b899cf1</li>
@@ -39,29 +40,13 @@ date: 2020-09-05 14:55:49
     "type": "split",
     "children": [
       {
-        "id": "b25cd73f96e6fb4b",
+        "id": "5a3449ca0cb70cbf",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "lexicalScopeについて勘違いしていたこと.md",
-            "mode": "source"
-          }
-        },
-        "group": "acf7f87beba3618d"
-      },
-      {
-        "id": "a86d77b63592b394",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "lexicalScopeについて勘違いしていたこと.md",
-            "mode": "preview"
-          }
-        },
-        "group": "acf7f87beba3618d"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -109,9 +94,7 @@ date: 2020-09-05 14:55:49
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {
-                "file": "lexicalScopeについて勘違いしていたこと.md"
-              }
+              "state": {}
             }
           },
           {
@@ -130,10 +113,10 @@ date: 2020-09-05 14:55:49
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200905145601-lexicalScopeについて勘違いしていたこと.md",
     "lexicalScopeについて勘違いしていたこと.md",
     "Untitled.md",
     "hoge.md",
-    "20200901113110-reactでborderBottomを内側にだけ有効にしたい.md",
-    "20200830151419-セミコロンが必要な場面に出会った.md"
+    "20200901113110-reactでborderBottomを内側にだけ有効にしたい.md"
   ]
 }
