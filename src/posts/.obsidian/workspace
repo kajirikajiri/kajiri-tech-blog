@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-05 16:22:51
+date: 2020-09-05 23:15:42
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/05 16:22:58 fba124f</li>
 <li>2020/09/05 14:56:02 c6be393</li>
 <li>2020/09/04 11:47:38 a56b1dc</li>
 <li>2020/09/01 11:31:11 f8e3ef5</li>
@@ -36,31 +37,34 @@ date: 2020-09-05 16:22:51
 <!-- toc area end -->
 {
   "main": {
-    "id": "309ad8f39f086fe5",
+    "id": "915232e98c8631f2",
     "type": "split",
     "children": [
       {
-        "id": "5a3449ca0cb70cbf",
+        "id": "8f8bdf039e140a4b",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "memo.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c2ea951b32a8f1f1",
+    "id": "e469fe50259023d1",
     "type": "split",
     "children": [
       {
-        "id": "46c7e52432c23e27",
+        "id": "33665796ef8b0b95",
         "type": "tabs",
         "children": [
           {
-            "id": "a95c5ebd8fb367bf",
+            "id": "99a5d54d4a10be22",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +72,7 @@ date: 2020-09-05 16:22:51
             }
           },
           {
-            "id": "f0e2e361e91095d6",
+            "id": "fec5c8f412d30108",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,23 +86,25 @@ date: 2020-09-05 16:22:51
     "width": 300
   },
   "right": {
-    "id": "07a0e7d082688f5e",
+    "id": "965bd01d29ef2a21",
     "type": "split",
     "children": [
       {
-        "id": "f4002be9fa74162d",
+        "id": "f8a8b2c06fd7f4a0",
         "type": "tabs",
         "children": [
           {
-            "id": "76af8973e46585f1",
+            "id": "1b6b3eb15d4d20ac",
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "memo.md"
+              }
             }
           },
           {
-            "id": "cce784fe4481184d",
+            "id": "303e0644673f5332",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -113,10 +119,6 @@ date: 2020-09-05 16:22:51
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200905145601-lexicalScopeについて勘違いしていたこと.md",
-    "lexicalScopeについて勘違いしていたこと.md",
-    "Untitled.md",
-    "hoge.md",
-    "20200901113110-reactでborderBottomを内側にだけ有効にしたい.md"
+    "Untitled.md"
   ]
 }
