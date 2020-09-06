@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-06 20:18:11
+date: 2020-09-06 20:19:06
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/06 20:18:27 6943acc</li>
 <li>2020/09/05 23:15:49 f8708c8</li>
 <li>2020/09/05 16:22:58 fba124f</li>
 <li>2020/09/05 14:56:02 c6be393</li>
@@ -48,7 +49,7 @@ date: 2020-09-06 20:18:11
         "state": {
           "type": "markdown",
           "state": {
-            "file": "pupeteerとdeepl.md",
+            "file": "20200906201827-pupeteerとdeepl.md",
             "mode": "source"
           }
         }
@@ -100,7 +101,7 @@ date: 2020-09-06 20:18:11
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pupeteerとdeepl.md"
+                "file": "20200906201827-pupeteerとdeepl.md"
               }
             }
           },
@@ -120,10 +121,10 @@ date: 2020-09-06 20:18:11
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200906201827-pupeteerとdeepl.md",
     "Untitled.md",
     "20200828121304-testcafeで要素が表示されるのを待機しない時.md",
     "20200829154320-read-book.md",
-    "20200829170331-markdown-test.md",
-    "20200829184502-callback-promise-async.md"
+    "20200829170331-markdown-test.md"
   ]
 }
