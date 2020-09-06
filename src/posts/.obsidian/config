@@ -1,3 +1,21 @@
+---
+title: config
+description: description
+date: 2020-09-06 20:18:10
+---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+<li>2020/08/23 16:41:19 b831426</li>
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+</div></details>
+
+<!-- toc area end -->
 {
   "theme": "obsidian",
   "pluginEnabledStatus": {
@@ -26,5 +44,6 @@
     ]
   },
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
 }

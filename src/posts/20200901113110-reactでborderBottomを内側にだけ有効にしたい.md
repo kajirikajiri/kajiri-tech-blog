@@ -1,11 +1,11 @@
 ---
 title: reactでborderBottomを内側にだけ有効にしたい.md
 description: description
-date: 2020-09-01 11:31:02
+date: 2020-09-06 20:18:12
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/09/01 11:31:11 f8e3ef5</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -36,3 +36,5 @@ date: 2020-09-01 11:31:02
 これで内側だけborder-bottomを表示できた。
 
 隣の要素と高さがずれたりもしないのでよい。
+
+[[react]][[style]][[borderBottom]]
