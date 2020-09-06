@@ -1,8 +1,57 @@
 ---
-title: react typescript
-description: input description
-date: 2020-08-09 15:44:44
+title: 20200823150049react-typescript.md
+description: description
+date: 2020-09-06 20:20:54
 ---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [react-tutorial をtypescriptで始める](#react-tutorial-%E3%82%92typescript%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B)
+- [AMD, UMD](#amd-umd)
+- [circleci導入](#circleci%E5%B0%8E%E5%85%A5)
+- [lint-staged 導入](#lint-staged-%E5%B0%8E%E5%85%A5)
+  - [eslint](#eslint)
+  - [prettier](#prettier)
+  - [stylelint](#stylelint)
+    - [Error内容](#error%E5%86%85%E5%AE%B9)
+- [jest のdebug](#jest-%E3%81%AEdebug)
+- [遭遇したError](#%E9%81%AD%E9%81%87%E3%81%97%E3%81%9Ferror)
+  - [Error文言](#error%E6%96%87%E8%A8%80)
+    - [直訳](#%E7%9B%B4%E8%A8%B3)
+    - [解決](#%E8%A7%A3%E6%B1%BA)
+  - [Error文言](#error%E6%96%87%E8%A8%80-1)
+    - [解決](#%E8%A7%A3%E6%B1%BA-1)
+  - [error文言](#error%E6%96%87%E8%A8%80)
+    - [解決](#%E8%A7%A3%E6%B1%BA-2)
+  - [error文言](#error%E6%96%87%E8%A8%80-1)
+    - [直訳](#%E7%9B%B4%E8%A8%B3-1)
+    - [解決](#%E8%A7%A3%E6%B1%BA-3)
+  - [error文言](#error%E6%96%87%E8%A8%80-2)
+    - [考察](#%E8%80%83%E5%AF%9F)
+    - [transformを修正してみる](#transform%E3%82%92%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B)
+      - [cssのimportがおかしい](#css%E3%81%AEimport%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84)
+        - [exportしているファイルでrenderするな](#export%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A7render%E3%81%99%E3%82%8B%E3%81%AA)
+  - [errorもんごん](#error%E3%82%82%E3%82%93%E3%81%94%E3%82%93)
+    - [解決](#%E8%A7%A3%E6%B1%BA-4)
+  - [error もんごん](#error-%E3%82%82%E3%82%93%E3%81%94%E3%82%93)
+    - [原因](#%E5%8E%9F%E5%9B%A0)
+- [jest導入](#jest%E5%B0%8E%E5%85%A5)
+- [jest react sample](#jest-react-sample)
+- [jest snapshot](#jest-snapshot)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+</div></details>
+
+<!-- toc area end -->
 # react-tutorial をtypescriptで始める
 
 [https://ja.reactjs.org/tutorial/tutorial.html#setup-option-2-local-development-environment](https://ja.reactjs.org/tutorial/tutorial.html#setup-option-2-local-development-environment)
