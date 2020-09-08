@@ -1,11 +1,11 @@
 ---
-title: 20200823150049react-typescript.md
+title: react-typescript.md
 description: description
-date: 2020-09-06 20:20:54
+date: 2020-09-08 11:27:02
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/09/06 20:21:03 472c35d</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
