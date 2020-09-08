@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-08 22:37:10
+date: 2020-09-08 22:48:08
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/08 22:37:23 794f9d8</li>
 <li>2020/09/08 11:30:06 09ed8f5</li>
 <li>2020/09/08 11:27:19 4c27f23</li>
 <li>2020/09/06 20:21:03 472c35d</li>
@@ -53,7 +54,7 @@ date: 2020-09-08 22:37:10
         "state": {
           "type": "markdown",
           "state": {
-            "file": "circleciのErrorが不親切だと思った.md",
+            "file": "20200908223722-circleciのErrorが不親切だと思った.md",
             "mode": "source"
           }
         }
@@ -105,7 +106,7 @@ date: 2020-09-08 22:37:10
             "state": {
               "type": "backlink",
               "state": {
-                "file": "circleciのErrorが不親切だと思った.md"
+                "file": "20200908223722-circleciのErrorが不親切だと思った.md"
               }
             }
           },
@@ -125,10 +126,10 @@ date: 2020-09-08 22:37:10
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200908223722-circleciのErrorが不親切だと思った.md",
     "Untitled.md",
     "20200823150049wsl2-cronttab.md",
     "20200823150049react-typescript.md",
-    "20200823150049obsidianを色々設定してみた.md",
-    "20200823150049wsl2 cronttab.md"
+    "20200823150049obsidianを色々設定してみた.md"
   ]
 }
