@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-08 11:26:58
+date: 2020-09-08 11:29:56
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/08 11:27:19 4c27f23</li>
 <li>2020/09/06 20:21:03 472c35d</li>
 <li>2020/09/06 20:19:12 e1a632f</li>
 <li>2020/09/06 20:18:27 6943acc</li>
@@ -51,7 +52,7 @@ date: 2020-09-08 11:26:58
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200823150049obsidianを色々設定してみた.md",
+            "file": "20200823150049wsl2-cronttab.md",
             "mode": "source"
           }
         }
@@ -103,7 +104,7 @@ date: 2020-09-08 11:26:58
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200823150049obsidianを色々設定してみた.md"
+                "file": "20200823150049wsl2-cronttab.md"
               }
             }
           },
@@ -123,9 +124,9 @@ date: 2020-09-08 11:26:58
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200823150049obsidianを色々設定してみた.md",
-    "20200823150049react-typescript.md",
     "20200823150049wsl2-cronttab.md",
+    "20200823150049react-typescript.md",
+    "20200823150049obsidianを色々設定してみた.md",
     "20200823150049wsl2 cronttab.md",
     "20200823150049markdown-test.md"
   ]
