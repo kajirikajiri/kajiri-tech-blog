@@ -1,10 +1,11 @@
 ---
 title: config
 description: description
-date: 2020-09-06 20:18:10
+date: 2020-09-09 11:00:47
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/06 20:18:27 6943acc</li>
 <li>2020/08/23 16:41:19 b831426</li>
 </ol></div></details>
 <!-- history area end -->
@@ -26,24 +27,6 @@ date: 2020-09-06 20:18:10
     "backlink": true,
     "command-palette": true,
     "markdown-importer": true,
-    "word-count": true,
-    "daily-notes": true,
-    "random-note": true,
-    "tag-pane": true,
-    "custom-css": true
-  },
-  "promptDelete": false,
-  "hotkeys": {
-    "daily-notes": [
-      {
-        "modifiers": [
-          "Mod"
-        ],
-        "key": "t"
-      }
-    ]
-  },
-  "vimMode": true,
-  "showLineNumber": true,
-  "alwaysUpdateLinks": true
+    "word-count": true
+  }
 }

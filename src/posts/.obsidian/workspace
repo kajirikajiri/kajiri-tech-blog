@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-08 22:48:08
+date: 2020-09-09 11:00:49
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/08 22:48:17 2d7c108</li>
 <li>2020/09/08 22:37:23 794f9d8</li>
 <li>2020/09/08 11:30:06 09ed8f5</li>
 <li>2020/09/08 11:27:19 4c27f23</li>
@@ -44,11 +45,11 @@ date: 2020-09-08 22:48:08
 <!-- toc area end -->
 {
   "main": {
-    "id": "915232e98c8631f2",
+    "id": "59da544dc9cf504a",
     "type": "split",
     "children": [
       {
-        "id": "8f8bdf039e140a4b",
+        "id": "b48750601cc190da",
         "type": "leaf",
         "active": true,
         "state": {
@@ -63,15 +64,15 @@ date: 2020-09-08 22:48:08
     "direction": "vertical"
   },
   "left": {
-    "id": "e469fe50259023d1",
+    "id": "8143b7997bd5db18",
     "type": "split",
     "children": [
       {
-        "id": "33665796ef8b0b95",
+        "id": "158aa8b544d7599e",
         "type": "tabs",
         "children": [
           {
-            "id": "99a5d54d4a10be22",
+            "id": "144f95426048f384",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,43 +80,37 @@ date: 2020-09-08 22:48:08
             }
           },
           {
-            "id": "fec5c8f412d30108",
+            "id": "b295e7b8f6fff87c",
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 698.5
+    "width": 300
   },
   "right": {
-    "id": "965bd01d29ef2a21",
+    "id": "7ecc435db7044fa9",
     "type": "split",
     "children": [
       {
-        "id": "f8a8b2c06fd7f4a0",
+        "id": "c7e8aa865d93bac8",
         "type": "tabs",
         "children": [
           {
-            "id": "1b6b3eb15d4d20ac",
+            "id": "523e8b696daf2c0b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "20200908223722-circleciのErrorが不親切だと思った.md"
               }
-            }
-          },
-          {
-            "id": "303e0644673f5332",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {}
             }
           }
         ]
@@ -126,10 +121,6 @@ date: 2020-09-08 22:48:08
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200908223722-circleciのErrorが不親切だと思った.md",
-    "Untitled.md",
-    "20200823150049wsl2-cronttab.md",
-    "20200823150049react-typescript.md",
-    "20200823150049obsidianを色々設定してみた.md"
+    "20200908223722-circleciのErrorが不親切だと思った.md"
   ]
 }
