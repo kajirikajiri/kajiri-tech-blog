@@ -1,10 +1,11 @@
 ---
 title: config
 description: description
-date: 2020-09-09 11:00:47
+date: 2020-09-11 12:18:11
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/09 11:01:03 4030d34</li>
 <li>2020/09/06 20:18:27 6943acc</li>
 <li>2020/08/23 16:41:19 b831426</li>
 </ol></div></details>
@@ -28,5 +29,6 @@ date: 2020-09-09 11:00:47
     "command-palette": true,
     "markdown-importer": true,
     "word-count": true
-  }
+  },
+  "vimMode": true
 }
