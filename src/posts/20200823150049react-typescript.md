@@ -447,7 +447,7 @@ child componentも含めてテストできる
 
 これはべんりだなー
 
-![snapshot](/assets/posts/jest-snapshot.png)
+![snapshot](/jest-snapshot.png)
 
 ```diff
 🎵 yarn test
