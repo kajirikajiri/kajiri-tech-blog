@@ -1,62 +1,16 @@
----
-title: workspace
-description: description
-date: 2020-09-11 12:18:13
----
-<!-- history area start -->
-<details><summary>commit history</summary><div><ol>
-<li>2020/09/09 11:01:03 4030d34</li>
-<li>2020/09/08 22:48:17 2d7c108</li>
-<li>2020/09/08 22:37:23 794f9d8</li>
-<li>2020/09/08 11:30:06 09ed8f5</li>
-<li>2020/09/08 11:27:19 4c27f23</li>
-<li>2020/09/06 20:21:03 472c35d</li>
-<li>2020/09/06 20:19:12 e1a632f</li>
-<li>2020/09/06 20:18:27 6943acc</li>
-<li>2020/09/05 23:15:49 f8708c8</li>
-<li>2020/09/05 16:22:58 fba124f</li>
-<li>2020/09/05 14:56:02 c6be393</li>
-<li>2020/09/04 11:47:38 a56b1dc</li>
-<li>2020/09/01 11:31:11 f8e3ef5</li>
-<li>2020/08/30 15:14:20 b899cf1</li>
-<li>2020/08/29 21:56:36 35a39aa</li>
-<li>2020/08/29 18:45:03 acb96ff</li>
-<li>2020/08/29 17:03:32 510971a</li>
-<li>2020/08/29 15:43:21 30f7210</li>
-<li>2020/08/28 12:13:06 c20d2dc</li>
-<li>2020/08/27 11:52:55 bfc2e43</li>
-<li>2020/08/27 11:50:52 fc716e5</li>
-<li>2020/08/26 14:23:04 85b84cc</li>
-<li>2020/08/24 11:31:12 61617e6</li>
-<li>2020/08/24 11:28:36 9ed9076</li>
-<li>2020/08/23 20:37:59 63439a6</li>
-<li>2020/08/23 18:34:07 940e66a</li>
-<li>2020/08/23 18:07:34 dc84b69</li>
-<li>2020/08/23 17:24:03 f619289</li>
-<li>2020/08/23 16:41:19 b831426</li>
-</ol></div></details>
-<!-- history area end -->
-<!-- toc area start -->
-<details><summary>headline</summary><div>
-<!-- START doctoc -->
-<!-- END doctoc -->
-
-</div></details>
-
-<!-- toc area end -->
 {
   "main": {
-    "id": "59da544dc9cf504a",
+    "id": "f1060f962968314e",
     "type": "split",
     "children": [
       {
-        "id": "b48750601cc190da",
+        "id": "d28ded4c449c9059",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "windowsでSQL-clientをssh接続する時はDBeaverがよかった.md",
+            "file": "20200911121821-windowsでSQL-clientをssh接続する時はDBeaverがよかった.md",
             "mode": "source"
           }
         }
@@ -65,15 +19,15 @@ date: 2020-09-11 12:18:13
     "direction": "vertical"
   },
   "left": {
-    "id": "8143b7997bd5db18",
+    "id": "6013f12e8634fa7d",
     "type": "split",
     "children": [
       {
-        "id": "158aa8b544d7599e",
+        "id": "219b4738978c373d",
         "type": "tabs",
         "children": [
           {
-            "id": "144f95426048f384",
+            "id": "05348050a7ccbd9d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -81,7 +35,7 @@ date: 2020-09-11 12:18:13
             }
           },
           {
-            "id": "b295e7b8f6fff87c",
+            "id": "211fbb3313e43450",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -97,20 +51,20 @@ date: 2020-09-11 12:18:13
     "width": 300
   },
   "right": {
-    "id": "7ecc435db7044fa9",
+    "id": "782fcc3f95d7fbe9",
     "type": "split",
     "children": [
       {
-        "id": "c7e8aa865d93bac8",
+        "id": "3d8a27c94c6aca75",
         "type": "tabs",
         "children": [
           {
-            "id": "523e8b696daf2c0b",
+            "id": "8e0ed3e17071e5e2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windowsでSQL-clientをssh接続する時はDBeaverがよかった.md"
+                "file": "20200911121821-windowsでSQL-clientをssh接続する時はDBeaverがよかった.md"
               }
             }
           }
@@ -122,10 +76,7 @@ date: 2020-09-11 12:18:13
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Untitled.md",
-    "20200908223722-circleciのErrorが不親切だと思った.md",
-    "20200823150049electronを触ってみた.md",
-    "20200830151419-セミコロンが必要な場面に出会った.md",
-    "20200830151419-read-book.md"
+    "20200911121821-windowsでSQL-clientをssh接続する時はDBeaverがよかった.md",
+    "20200823150049chrome-extension-with-typescript調査.md"
   ]
 }
