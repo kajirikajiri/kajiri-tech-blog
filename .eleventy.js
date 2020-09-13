@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addPlugin(lazyImagesPlugin, {
-    transformImgPath: (imgPath) => `./src/${imgPath}`,
+    transformImgPath: (imgPath) => `./public/${imgPath}`,
   });
 
   eleventyConfig.setEjsOptions({
