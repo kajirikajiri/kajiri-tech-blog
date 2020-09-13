@@ -1,0 +1,9 @@
+<script>
+  (function(){
+    const secondDetails = document.querySelectorAll("details")[1]
+    const anchors = secondDetails.querySelectorAll('a')
+    anchors.forEach(anchor=>{
+      anchor.removeAttribute('target')
+    })
+  })()
+</script>
