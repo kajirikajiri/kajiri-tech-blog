@@ -1,3 +1,25 @@
+---
+title: config
+description: description
+date: 2020-09-13 19:13:10
+---
+<!-- history area start -->
+<details><summary>commit history</summary><div><ol>
+<li>2020/09/13 16:58:26 f9c3104</li>
+<li>2020/09/11 12:18:21 90f367a</li>
+<li>2020/09/09 11:01:03 4030d34</li>
+<li>2020/09/06 20:18:27 6943acc</li>
+<li>2020/08/23 16:41:19 b831426</li>
+</ol></div></details>
+<!-- history area end -->
+<!-- toc area start -->
+<details><summary>headline</summary><div>
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+</div></details>
+
+<!-- toc area end -->
 {
   "theme": "obsidian",
   "pluginEnabledStatus": {
@@ -8,6 +30,12 @@
     "backlink": true,
     "command-palette": true,
     "markdown-importer": true,
-    "word-count": true
-  }
+    "word-count": true,
+    "custom-css": true
+  },
+  "vimMode": true,
+  "fileSortOrder": "alphabetical",
+  "smartIndentList": true,
+  "useMarkdownLinks": false,
+  "strictLineBreaks": true
 }
