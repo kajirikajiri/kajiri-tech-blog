@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-13 19:13:11
+date: 2020-09-13 23:39:53
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/13 19:13:18 ffc60c3</li>
 <li>2020/09/13 16:58:26 f9c3104</li>
 <li>2020/09/11 12:18:21 90f367a</li>
 <li>2020/09/09 11:01:03 4030d34</li>
@@ -58,7 +59,7 @@ date: 2020-09-13 19:13:11
         "state": {
           "type": "markdown",
           "state": {
-            "file": "画像が表示出来ないことがあったので調査した.md",
+            "file": "twitterボタンとはてぶボタンを追加した.md",
             "mode": "source"
           }
         }
@@ -112,7 +113,7 @@ date: 2020-09-13 19:13:11
             "state": {
               "type": "backlink",
               "state": {
-                "file": "画像が表示出来ないことがあったので調査した.md"
+                "file": "twitterボタンとはてぶボタンを追加した.md"
               }
             }
           }
