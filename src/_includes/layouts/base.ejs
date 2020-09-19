@@ -49,10 +49,12 @@
     <% } %> <%- include('webpack.ejs') %>
   </head>
   <body style="word-break:break-all;padding:.5em;">
+    <div style="width:795px;margin:auto;">
     <%- content %>
     <%- include('./base/importGoogleSearchWithinSite.ejs') %>
     <%- include('./base/overrideGoogleSearchWithinSite.ejs') %>
     <%- include('./base/addLinks.ejs') %>
     <div style="width:100%;height:80px;"></div>
+    </div>
   </body>
 </html>

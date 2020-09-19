@@ -5,6 +5,7 @@
 @import url("./main/override-darkmode-js.css");
 @import url("./main/override-google-search-within-site.css");
 @import url("./main/pagination.css");
+@import url("./main/ad-block.css");
 
 @tailwind components;
 @tailwind utilities;
