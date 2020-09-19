@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-19 19:38:23
+date: 2020-09-19 21:54:02
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/19 19:38:31 3213b6d</li>
 <li>2020/09/13 23:40:02 68ff28e</li>
 <li>2020/09/13 19:13:18 ffc60c3</li>
 <li>2020/09/13 16:58:26 f9c3104</li>
@@ -60,7 +61,7 @@ date: 2020-09-19 19:38:23
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Promise.allの理解が甘かったので試した.md",
+            "file": "20200919193831-Promise.allの理解が甘かったので試した.md",
             "mode": "source"
           }
         },
@@ -72,7 +73,7 @@ date: 2020-09-19 19:38:23
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Promise.allの理解が甘かったので試した.md",
+            "file": "20200919193831-Promise.allの理解が甘かったので試した.md",
             "mode": "preview"
           }
         },
@@ -127,7 +128,7 @@ date: 2020-09-19 19:38:23
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Promise.allの理解が甘かったので試した.md"
+                "file": "20200919193831-Promise.allの理解が甘かったので試した.md"
               }
             }
           }
@@ -139,6 +140,7 @@ date: 2020-09-19 19:38:23
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200919193831-Promise.allの理解が甘かったので試した.md",
     "Promiseの理解が甘かったので試した.md",
     "Untitled.md"
   ]
