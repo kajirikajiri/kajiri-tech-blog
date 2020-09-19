@@ -1,45 +1,50 @@
 .post blockquote{
   border-left: 5px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   padding-left: 10px;
 }
 .post h1{
   font-size:20px !important;
-  color: #32ccff;
+  color: #3258ff;
 }
 .post h1:before{
   content: '# ';
 }
 .post h2{
+  color: #fa8e22;
   font-size:19px !important;
-  color: #99ff32;
 }
 .post h2:before{
   content: '## ';
 }
 .post h3{
   font-size:18px !important;
-  color: #ff9932;
+  color: #e628ff;
 }
 .post h3:before{
   content: '### ';
 }
 .post h4{
   font-size:17px !important;
-  color: #9932ff;
+  color: #ff3265;
 }
 .post h4:before{
   content: '#### ';
 }
 .post h5{
+  color: #9326ff;
   font-size:16px !important;
-  color: #ff3265;
 }
 .post h5:before{
   content: '##### ';
 }
 .post h6{
   font-size:15px !important;
-  color: #3232FF;
+  color: #19e924;
 }
 .post h6:before{
   content: '###### ';

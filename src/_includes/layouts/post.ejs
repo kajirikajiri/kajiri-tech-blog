@@ -6,14 +6,14 @@ layout: layouts/base.ejs
   <header>
     <h1 class="font-bold text-3xl"><%= title %></h1>
     <div class="text-gray-600">
-      <%= this.dateFns.format(new Date(date), 'LLLL d, yyyy') %>
+      <%= this.dateFns.format(new Date(date), 'yyyy-MM-dd') %>
     </div>
   </header>
   <section class="pt-3 pb-3">
     <%- content %>
   </section>
   <footer>
-    <a href="/">Back to home</a>
+    <a href="/">Back to 🏠</a>
   </footer>
 </article>
 
