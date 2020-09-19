@@ -1,0 +1,35 @@
+<script>
+  (()=>{
+    const a = document.createElement('a')
+    a.setAttribute('href', 'https://twitter.com/intent/tweet?text=<%= title %>&url=' + document.location.href)
+    a.setAttribute('style', 'margin-right: 15px;')
+    const image = document.createElement('img')
+    image.setAttribute('src', '/twitter-icon.svg')
+    image.setAttribute('style', 'width: 60px;')
+    a.appendChild(image)
+    const div = document.createElement('div')
+    div.setAttribute('style', 'display: flex;')
+
+
+    const a2 = document.createElement('a')
+    a2.setAttribute('href', 'https://b.hatena.ne.jp/entry/' + document.location.href)
+    a2.setAttribute('class', 'hatena-bookmark-button')
+    a2.setAttribute('data-hatena-bookmark-layout', 'touch')
+    a2.setAttribute('data-hatena-bookmark-width', '60')
+    a2.setAttribute('data-hatena-bookmark-height', '60')
+    a2.setAttribute('title', 'このエントリーをはてなブックマークに追加')
+
+    const image2 = document.createElement('img')
+    image2.setAttribute('src', 'https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png') 
+    image2.setAttribute('alt', 'このエントリーをはてなブックマークに追加') 
+    image2.setAttribute('width', '20') 
+    image2.setAttribute('height', '20') 
+    image2.setAttribute('style', 'border: none;') 
+    a2.appendChild(image2)
+
+    div.appendChild(a)
+    div.appendChild(a2)
+    document.body.appendChild(div)
+  })()
+</script>
+<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
