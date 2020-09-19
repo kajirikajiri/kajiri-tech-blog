@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-13 23:39:53
+date: 2020-09-19 19:38:23
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/13 23:40:02 68ff28e</li>
 <li>2020/09/13 19:13:18 ffc60c3</li>
 <li>2020/09/13 16:58:26 f9c3104</li>
 <li>2020/09/11 12:18:21 90f367a</li>
@@ -49,34 +50,47 @@ date: 2020-09-13 23:39:53
 <!-- toc area end -->
 {
   "main": {
-    "id": "f1060f962968314e",
+    "id": "3bf4aa0afd41634d",
     "type": "split",
     "children": [
       {
-        "id": "bbc509f83ac4cdec",
+        "id": "5c4126dac8b29f8f",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "twitterボタンとはてぶボタンを追加した.md",
+            "file": "Promise.allの理解が甘かったので試した.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "613eada87b668c3f"
+      },
+      {
+        "id": "f5ad54cfd5a6d488",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Promise.allの理解が甘かったので試した.md",
+            "mode": "preview"
+          }
+        },
+        "group": "613eada87b668c3f"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6013f12e8634fa7d",
+    "id": "fb2c6ca5b50e0fe5",
     "type": "split",
     "children": [
       {
-        "id": "219b4738978c373d",
+        "id": "f8c2899d67cf32e3",
         "type": "tabs",
         "children": [
           {
-            "id": "05348050a7ccbd9d",
+            "id": "347373dbf174c3b2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -84,12 +98,12 @@ date: 2020-09-13 23:39:53
             }
           },
           {
-            "id": "211fbb3313e43450",
+            "id": "145b8a20cc76d9c6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "ga"
+                "query": ""
               }
             }
           }
@@ -100,20 +114,20 @@ date: 2020-09-13 23:39:53
     "width": 300
   },
   "right": {
-    "id": "782fcc3f95d7fbe9",
+    "id": "3b407eb5f82283de",
     "type": "split",
     "children": [
       {
-        "id": "3d8a27c94c6aca75",
+        "id": "291c996816563d22",
         "type": "tabs",
         "children": [
           {
-            "id": "8e0ed3e17071e5e2",
+            "id": "52f6af68b26e8f98",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "twitterボタンとはてぶボタンを追加した.md"
+                "file": "Promise.allの理解が甘かったので試した.md"
               }
             }
           }
@@ -125,10 +139,7 @@ date: 2020-09-13 23:39:53
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Untitled.md",
-    "20200908223722-circleciのErrorが不親切だと思った.md",
-    "20200823150049cargo-makeやってみた.md",
-    "20200823150049computed-failed.md",
-    "20200823150049react-typescript.md"
+    "Promiseの理解が甘かったので試した.md",
+    "Untitled.md"
   ]
 }
