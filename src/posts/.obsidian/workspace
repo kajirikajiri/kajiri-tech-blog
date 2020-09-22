@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-19 21:54:02
+date: 2020-09-22 18:14:12
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/19 21:54:08 1845ce9</li>
 <li>2020/09/19 19:38:31 3213b6d</li>
 <li>2020/09/13 23:40:02 68ff28e</li>
 <li>2020/09/13 19:13:18 ffc60c3</li>
@@ -51,47 +52,34 @@ date: 2020-09-19 21:54:02
 <!-- toc area end -->
 {
   "main": {
-    "id": "3bf4aa0afd41634d",
+    "id": "10afc20915a016c1",
     "type": "split",
     "children": [
       {
-        "id": "5c4126dac8b29f8f",
+        "id": "11979e69488b2009",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200919193831-Promise.allの理解が甘かったので試した.md",
-            "mode": "source"
-          }
-        },
-        "group": "613eada87b668c3f"
-      },
-      {
-        "id": "f5ad54cfd5a6d488",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "20200919193831-Promise.allの理解が甘かったので試した.md",
+            "file": "そのうち調べようと思っていること.md",
             "mode": "preview"
           }
-        },
-        "group": "613eada87b668c3f"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fb2c6ca5b50e0fe5",
+    "id": "274c619566a1ec79",
     "type": "split",
     "children": [
       {
-        "id": "f8c2899d67cf32e3",
+        "id": "e5234b6874bd70a4",
         "type": "tabs",
         "children": [
           {
-            "id": "347373dbf174c3b2",
+            "id": "d8ee2bbcadd7dfe1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -99,7 +87,7 @@ date: 2020-09-19 21:54:02
             }
           },
           {
-            "id": "145b8a20cc76d9c6",
+            "id": "cff2dee3caf83a4a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -115,20 +103,20 @@ date: 2020-09-19 21:54:02
     "width": 300
   },
   "right": {
-    "id": "3b407eb5f82283de",
+    "id": "24a84c2977351eda",
     "type": "split",
     "children": [
       {
-        "id": "291c996816563d22",
+        "id": "4c359f88093801ad",
         "type": "tabs",
         "children": [
           {
-            "id": "52f6af68b26e8f98",
+            "id": "93ab534dd6faa6a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200919193831-Promise.allの理解が甘かったので試した.md"
+                "file": "そのうち調べようと思っていること.md"
               }
             }
           }
@@ -140,8 +128,7 @@ date: 2020-09-19 21:54:02
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200919193831-Promise.allの理解が甘かったので試した.md",
-    "Promiseの理解が甘かったので試した.md",
-    "Untitled.md"
+    "Untitled.md",
+    "気になった.md"
   ]
 }
