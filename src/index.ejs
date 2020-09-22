@@ -15,7 +15,7 @@ eleventyComputed:
   <% list.forEach((post) => { %>
     <a href="<%= post.url %>">
   <li style="padding: 2px 0 2px 2px">
-    <%= post.data.title %> <span style="font-size: 14px;color:grey"><%= this.dateFns.format(new Date(post.data.date), 'yyyy-MM-dd') %></span>
+    <span style="font-size: 14px;color:grey"><%= this.dateFns.format(new Date(post.data.date), 'yyyy-MM-dd') %></span><br><span><%= post.data.title %></span>
   </li>
   </a>
   <% }) %>
