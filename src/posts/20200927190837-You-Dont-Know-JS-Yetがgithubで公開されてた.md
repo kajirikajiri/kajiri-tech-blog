@@ -1,11 +1,11 @@
 ---
-title: 20200927190837-You-Dont-Know-JS-Yetがgithubで公開されてた.md
+title: You-Don't-Know-JS-Yetがgithubで公開されてた.md
 description: description
-date: 2020-09-27 19:09:29
+date: 2020-09-27 19:11:45
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/09/27 19:09:40 3673546</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
