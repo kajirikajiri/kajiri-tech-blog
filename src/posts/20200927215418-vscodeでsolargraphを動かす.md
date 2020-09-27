@@ -1,11 +1,11 @@
 ---
 title: vscodeでsolargraphを動かす.md
 description: description
-date: 2020-09-27 21:54:09
+date: 2020-09-27 21:59:44
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/09/27 21:54:19 98c7081</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -17,6 +17,7 @@ date: 2020-09-27 21:54:09
 - [環境](#%E7%92%B0%E5%A2%83)
 - [1.bundler が古く、solargraphがエラーを出力](#1bundler-%E3%81%8C%E5%8F%A4%E3%81%8Fsolargraph%E3%81%8C%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%92%E5%87%BA%E5%8A%9B)
 - [2.bundlerのバージョンが間違っている場合](#2bundler%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%8C%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88)
+- [3.vscodeの設定](#3vscode%E3%81%AE%E8%A8%AD%E5%AE%9A)
 - [おまけ](#%E3%81%8A%E3%81%BE%E3%81%91)
 - [link](#link)
 
@@ -70,6 +71,21 @@ rbenv global YOUR_RUBY_VERSION
 
 上でも書いたが、BUNDLED WITHがGemfile.lockに書いてある。このバージョンと自分のbundlerのバージョンが違うと、不具合が起きやすいので揃えた方がいい。
 自分の場合、rbenvを使っていて、rbenv globalに指定したrubyのバージョンで導入したbundlerとBUNDLED WITHに指定されたbundlerのバージョンが違うために、bundle install に失敗することがあった。
+
+# 3.vscodeの設定
+
+```json
+  "solargraph.useBundler": false,
+  "solargraph.commandPath": "/home/kajiri/.rbenv/shims/solargraph", // YOUR solargraph path
+```
+
+今回のプロジェクトにはsolargraphが入っていなかったのでsystemの（自分のローカルにinstallしている)solargraphを使用した。その場合、vscodeのsettings.jsonに上記設定を書き込む必要がある。commandPathがわからない場合、
+
+```bash
+which solargraph
+```
+
+で出力されたものを使用すればいいと思う。プロジェクトにsolargraphが入っている場合、solargraph.useBundler: trueで動くと思うがその状況になったことがまだない。
 
 # おまけ
 クラス名をクリックして移動できるとやっぱり楽！solargraphはぜひ入れましょう
