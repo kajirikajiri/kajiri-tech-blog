@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-22 18:20:18
+date: 2020-09-27 19:08:25
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/22 18:20:25 db89e77</li>
 <li>2020/09/22 18:14:22 ea6b049</li>
 <li>2020/09/19 21:54:08 1845ce9</li>
 <li>2020/09/19 19:38:31 3213b6d</li>
@@ -53,18 +54,18 @@ date: 2020-09-22 18:20:18
 <!-- toc area end -->
 {
   "main": {
-    "id": "10afc20915a016c1",
+    "id": "967853529c660a8e",
     "type": "split",
     "children": [
       {
-        "id": "afd8391dc9321a55",
+        "id": "67f49ef933a9ebab",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200922181421-イマイチvue3のなにがいいのかわからなかったので調べた.md",
-            "mode": "preview"
+            "file": "You-Don't-Know-JS-Yetがgithubで公開されてた.md",
+            "mode": "source"
           }
         }
       }
@@ -72,15 +73,15 @@ date: 2020-09-22 18:20:18
     "direction": "vertical"
   },
   "left": {
-    "id": "274c619566a1ec79",
+    "id": "ef33c904ca13a59b",
     "type": "split",
     "children": [
       {
-        "id": "e5234b6874bd70a4",
+        "id": "443886d901511bfa",
         "type": "tabs",
         "children": [
           {
-            "id": "d8ee2bbcadd7dfe1",
+            "id": "5c51b3c3f8e2b190",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -88,7 +89,7 @@ date: 2020-09-22 18:20:18
             }
           },
           {
-            "id": "cff2dee3caf83a4a",
+            "id": "7841a227e94b7f84",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -104,20 +105,20 @@ date: 2020-09-22 18:20:18
     "width": 300
   },
   "right": {
-    "id": "24a84c2977351eda",
+    "id": "c5ea29385d273414",
     "type": "split",
     "children": [
       {
-        "id": "4c359f88093801ad",
+        "id": "0f9d6ddbab1a2f95",
         "type": "tabs",
         "children": [
           {
-            "id": "93ab534dd6faa6a8",
+            "id": "fa927b7c4532711d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200922181421-イマイチvue3のなにがいいのかわからなかったので調べた.md"
+                "file": "You-Don't-Know-JS-Yetがgithubで公開されてた.md"
               }
             }
           }
@@ -129,8 +130,10 @@ date: 2020-09-22 18:20:18
     "collapsed": true
   },
   "lastOpenFiles": [
-    "20200922181421-イマイチvue3のなにがいいのかわからなかったので調べた.md",
+    "You-Don't-Know-JS-Yetがgithubで公開されてた.md",
+    "関数の書き方.md",
+    "JavaScriptのskill-up.md",
     "Untitled.md",
-    "気になった.md"
+    "20200922181421-そのうち調べようと思っていること.md"
   ]
 }
