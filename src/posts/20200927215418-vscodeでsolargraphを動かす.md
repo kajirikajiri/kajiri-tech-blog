@@ -1,10 +1,11 @@
 ---
 title: vscodeでsolargraphを動かす.md
 description: description
-date: 2020-09-27 21:59:44
+date: 2020-09-27 22:05:27
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/27 21:59:51 2e3bbe1</li>
 <li>2020/09/27 21:54:19 98c7081</li>
 </ol></div></details>
 <!-- history area end -->
@@ -53,7 +54,7 @@ Traceback (most recent call last):
         3: from /home/kajiri/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/specification.rb:1458:in `activate_dependencies'
         2: from /home/kajiri/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/specification.rb:1458:in `each'
         1: from /home/kajiri/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/specification.rb:1469:in `block in activate_dependencies'
-/home/kajiri/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/dependency.rb:312:in `to_specs': Could not find 'bundler' (1.16.6) required by your /home/kajiri/ghq/github.com/OnetapInc/locked-api/Gemfile.lock. (Gem::MissingSpecVersionError)
+/home/kajiri/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/dependency.rb:312:in `to_specs': Could not find 'bundler' (1.16.6) required by your /home/kajiri/ghq/github.com/Gemfile.lock. (Gem::MissingSpecVersionError)
 To update to the lastest version installed on your system, run `bundle update --bundler`.
 To install the missing version, run `gem install bundler:1.16.6`
 Checked in 'GEM_PATH=/home/kajiri/.gem/ruby/2.5.0:/home/kajiri/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0', execute `gem env` for more information
