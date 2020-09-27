@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-27 19:09:27
+date: 2020-09-27 21:54:07
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/27 19:09:40 3673546</li>
 <li>2020/09/27 19:08:38 bf94eee</li>
 <li>2020/09/22 18:20:25 db89e77</li>
 <li>2020/09/22 18:14:22 ea6b049</li>
@@ -65,7 +66,7 @@ date: 2020-09-27 19:09:27
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20200927190837-You-Dont-Know-JS-Yetがgithubで公開されてた.md",
+            "file": "vscodeでsolargraphを動かす.md",
             "mode": "source"
           }
         }
@@ -119,7 +120,7 @@ date: 2020-09-27 19:09:27
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20200927190837-You-Dont-Know-JS-Yetがgithubで公開されてた.md"
+                "file": "vscodeでsolargraphを動かす.md"
               }
             }
           }
@@ -131,11 +132,11 @@ date: 2020-09-27 19:09:27
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled.md",
     "20200927190837-You-Don't-Know-JS-Yetがgithubで公開されてた.md",
     "You-Don't-Know-JS-Yetがgithubで公開されてた.md",
     "関数の書き方.md",
     "JavaScriptのskill-up.md",
-    "Untitled.md",
     "20200922181421-そのうち調べようと思っていること.md"
   ]
 }
