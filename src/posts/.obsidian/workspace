@@ -1,10 +1,11 @@
 ---
 title: workspace
 description: description
-date: 2020-09-27 19:08:25
+date: 2020-09-27 19:09:27
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/09/27 19:08:38 bf94eee</li>
 <li>2020/09/22 18:20:25 db89e77</li>
 <li>2020/09/22 18:14:22 ea6b049</li>
 <li>2020/09/19 21:54:08 1845ce9</li>
@@ -64,7 +65,7 @@ date: 2020-09-27 19:08:25
         "state": {
           "type": "markdown",
           "state": {
-            "file": "You-Don't-Know-JS-Yetがgithubで公開されてた.md",
+            "file": "20200927190837-You-Dont-Know-JS-Yetがgithubで公開されてた.md",
             "mode": "source"
           }
         }
@@ -118,7 +119,7 @@ date: 2020-09-27 19:08:25
             "state": {
               "type": "backlink",
               "state": {
-                "file": "You-Don't-Know-JS-Yetがgithubで公開されてた.md"
+                "file": "20200927190837-You-Dont-Know-JS-Yetがgithubで公開されてた.md"
               }
             }
           }
@@ -130,6 +131,7 @@ date: 2020-09-27 19:08:25
     "collapsed": true
   },
   "lastOpenFiles": [
+    "20200927190837-You-Don't-Know-JS-Yetがgithubで公開されてた.md",
     "You-Don't-Know-JS-Yetがgithubで公開されてた.md",
     "関数の書き方.md",
     "JavaScriptのskill-up.md",
