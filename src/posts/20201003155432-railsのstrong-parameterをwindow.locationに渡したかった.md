@@ -1,11 +1,11 @@
 ---
 title: railsのstrong-parameterをwindow.locationに渡したかった.md
 description: description
-date: 2020-10-03 15:54:29
+date: 2020-10-17 16:16:05
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/10/03 15:54:32 aad36f9</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,7 +24,17 @@ date: 2020-10-03 15:54:29
 <!-- toc area end -->
 # 結論
 
-window.location = '/user?strong_params[name]=kajiri
+```javascript
+window.location = '/user?strong_params[name]=kajiri'
+```
+
+```ruby
+private
+
+def sample_params
+  params.require(:strong_params).permit(:name)
+end
+```
 
 # 参考にさせていただきました
 
