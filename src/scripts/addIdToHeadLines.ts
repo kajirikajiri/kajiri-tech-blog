@@ -1,0 +1,8 @@
+export const addIdToHeadlines = ()=>{
+  const headlines = document.querySelectorAll("h1, h2, h3, h4, h5, h6")
+  headlines.forEach(headline=>{
+    const text = headline.innerHTML.toLowerCase()
+    const encodedText = encodeURI(text)
+    headline.id = encodedText
+  })
+}

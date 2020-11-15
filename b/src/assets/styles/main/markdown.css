@@ -1,4 +1,4 @@
-.post blockquote{
+.blog-post blockquote{
   border-left: 5px solid #ddd;
   border-right: 1px solid #ddd;
   border-top: 1px solid #ddd;
@@ -8,63 +8,63 @@
   padding-left: 10px;
   padding-bottom: 4px;
 }
-.post h1{
+.blog-post h1{
   margin-top: 29px;
   font-size:20px !important;
   color: #3258ff;
 }
-.post h1:before{
+.blog-post h1:before{
   content: '# ';
 }
-.post h2{
+.blog-post h2{
   margin-top: 29px;
   color: #fa8e22;
   font-size:19px !important;
 }
-.post h2:before{
+.blog-post h2:before{
   content: '## ';
 }
-.post h3{
+.blog-post h3{
   margin-top: 29px;
   font-size:18px !important;
   color: #e628ff;
 }
-.post h3:before{
+.blog-post h3:before{
   content: '### ';
 }
-.post h4{
+.blog-post h4{
   margin-top: 29px;
   font-size:17px !important;
   color: #ff3265;
 }
-.post h4:before{
+.blog-post h4:before{
   content: '#### ';
 }
-.post h5{
+.blog-post h5{
   margin-top: 29px;
   color: #9326ff;
   font-size:16px !important;
 }
-.post h5:before{
+.blog-post h5:before{
   content: '##### ';
 }
-.post h6{
+.blog-post h6{
   margin-top: 29px;
   font-size:15px !important;
   color: #19e924;
 }
-.post h6:before{
+.blog-post h6:before{
   content: '###### ';
 }
-.post img{
+.blog-post img{
   display: block !important;
   border: #7e7e7e solid 1px;
   border-radius: 4px;
 }
-.post ol,.post ul{
+.blog-post ol,.blog-post ul{
   list-style: revert !important;
   padding: 0 0 0 20px !important;
 }
-.post a {
+.blog-post a {
   text-decoration: underline !important;
 }

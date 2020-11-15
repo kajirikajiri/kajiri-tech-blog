@@ -1,15 +1,19 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {addIdToHeadlines} from '../scripts/addIdToHeadLines'
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
+  useEffect(()=>{
+    addIdToHeadlines()
+  })
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
