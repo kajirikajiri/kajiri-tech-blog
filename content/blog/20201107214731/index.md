@@ -1,11 +1,11 @@
 ---
 title: wsl2で同じ環境を複数つくる
-description: description
-date: 2020-11-15 13:56:29
+description: Windows Subsystem for Linuxで同じ環境を複数作成する方法を共有します。
+date: 2020-11-15 18:00:54
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->

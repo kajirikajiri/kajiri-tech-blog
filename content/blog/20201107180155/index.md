@@ -1,11 +1,11 @@
 ---
 title: vuejsでコメントを記述する他の方法
-description: description
-date: 2020-11-15 13:56:29
+description: vuejsのtemplateタグの内側でコメントアウトする方法がもう一つあったので共有します
+date: 2020-11-15 18:00:54
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
