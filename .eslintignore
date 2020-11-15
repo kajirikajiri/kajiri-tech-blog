@@ -1,3 +1,4 @@
 node_modules
 public
 .eslintrc.js
+gatsby-node.js
