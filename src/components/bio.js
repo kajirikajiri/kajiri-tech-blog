@@ -42,22 +42,30 @@ const Bio = () => {
   return (
     <div className="bio">
       {avatar && (
-          <a target="_blank" href={`https://twitter.com/${social?.twitter || ``}`}>
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
+        <a
+          rel="noreferrer noopener"
+          target="_blank"
+          href={`https://twitter.com/${social?.twitter || ``}`}
+        >
+          <Image
+            fixed={avatar}
+            alt={author?.name || ``}
+            className="bio-avatar"
+            imgStyle={{
+              borderRadius: `50%`,
+            }}
+          />
         </a>
       )}
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a target="_blank" href={`https://twitter.com/${social?.twitter || ``}`}>
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href={`https://twitter.com/${social?.twitter || ``}`}
+          >
             You should follow them on Twitter
           </a>
         </p>
