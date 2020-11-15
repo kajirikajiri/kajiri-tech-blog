@@ -1,9 +1,7 @@
-/* globals __PATH_PREFIX__ */
-
 import React from "react"
 import { Link } from "gatsby"
 
-// declare const __PATH_PREFIX__: string
+declare const __PATH_PREFIX__: string
 
 const Layout = ({
   location,
