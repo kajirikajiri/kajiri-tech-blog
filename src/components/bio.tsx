@@ -45,7 +45,7 @@ const Bio = () => {
         <a
           rel="noreferrer noopener"
           target="_blank"
-          href={`https://twitter.com/${social?.twitter || ``}`}
+          href={`https://kajirikajiri.github.io/profile/`}
         >
           <Image
             fixed={avatar}
