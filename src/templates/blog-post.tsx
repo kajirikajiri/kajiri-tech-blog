@@ -7,7 +7,18 @@ import SEO from "../components/seo"
 import { addIdToHeadlines } from "../scripts/addIdToHeadLines"
 import { ahrefBeautifier } from "../scripts/ahrefBeautifier"
 
-const BlogPostTemplate = ({ data, location }: any) => {
+const BlogPostTemplate = ({
+  data,
+  location,
+}: {
+  data: {
+    previous: { fields: { slug: string }; frontmatter: { title: string } }
+    next: { fields: { slug: string }; frontmatter: { title: string } }
+    markdownRemark: any
+    site: { siteMetadata?: { title: string } }
+  }
+  location: { pathname: string }
+}) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
