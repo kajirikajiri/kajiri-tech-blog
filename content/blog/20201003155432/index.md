@@ -1,11 +1,11 @@
 ---
-title: railsのstrong-parameterをwindow.locationに渡したかった
-description: description
-date: 2020-11-15 13:56:29
+title: strong-parameterにwindow.locationから渡したかった
+description: Ruby on Railsのstrong-parameterにJaraScriptのwindow.locationから値を渡す方法です
+date: 2020-11-15 17:56:56
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
