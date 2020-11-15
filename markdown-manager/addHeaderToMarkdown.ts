@@ -16,6 +16,6 @@ const addHeaderToMarkdown = async(dir:string)=>{
 }
 
 (async()=>{
-  const dir:string = './src/posts/'
+  const dir:string = './content/blog/'
   await addHeaderToMarkdown(dir)
 })()

@@ -1,123 +1,99 @@
-# Eleventy Starter Boilerplate
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's blog starter
+</h1>
 
-🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog. ⚡️ Built with [Eleventy](https://www.11ty.dev), [ESLint](https://eslint.org), [Prettier](https://prettier.io), [Webpack](https://webpack.js.org), [PostCSS](https://postcss.org), [Tailwind CSS](https://tailwindcss.com).
+Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-Clone this project and use it to create your own [Eleventy](https://www.11ty.dev) blog.
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
-### Features
+## 🚀 Quick start
 
-Production-ready in mind:
+1.  **Create a Gatsby site.**
 
-- 🔥 [11ty](https://www.11ty.dev) for Static Site Generator
-- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com) (with [PurgeCSS](https://purgecss.com), remove unused CSS)
-- 💅 [PostCSS](https://postcss.org) for processing [Tailwind CSS](https://tailwindcss.com)
-- ⚡️ Lazy load images with [lazysizes](https://github.com/aFarkas/lazysizes)
-- ✨ Compress image with [Imagemin](https://github.com/imagemin/imagemin)
-- 🎈 Syntax Highlighting with [Prism.js](https://prismjs.com)
-- ☕ Minify HTML & CSS with [HTMLMinifier](https://www.npmjs.com/package/html-minifier) and [cssnano](https://cssnano.co)
-- ✏️ Linter with [ESLint](https://eslint.org)
-- 🛠 Code Formatter with [Prettier](https://prettier.io)
-- 💨 Live reload
-- 📦 Module Bundler with [Webpack](https://webpack.js.org)
-- 🦊 Templating with [EJS](https://ejs.co)
-- 🤖 SEO metadata and [Open Graph](https://ogp.me/) tags
-- ⚙️ [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) for richer indexing
-- 🗺 Sitemap.xml
-- ⚠️ 404 page
-- 📖 Pagination
-- ✅ Cache busting
-- 💯 Maximize lighthouse score
+    Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-### Philosophy
+    ```shell
+    # create a new Gatsby site using the blog starter
+    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    ```
 
-- Minimal code (HTML, CSS & JS). Add what you need
-- SEO-friendly
-- 🚀 Production-ready
+1.  **Start developing.**
 
-### Requirements
+    Navigate into your new site’s directory and start it up.
 
-- Node.js and npm
+    ```shell
+    cd my-blog-starter/
+    gatsby develop
+    ```
 
-### Getting started
+1.  **Open the source code and start editing!**
 
-Run the following command on your local environment:
+    Your site is now running at `http://localhost:8000`!
 
-```
-git clone --depth=1 https://github.com/ixartz/Eleventy-Starter-Boilerplate.git my-project-name
-cd my-project-name
-npm install
-```
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-Then, you can run locally in development mode with live reload:
+    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-```
-npm run dev
-```
+## 🧐 What's inside?
 
-Open http://localhost:8080 with your favorite browser to see your blog.
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-### Project structure
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-```
-.
-├── public             # Static files
-│   └── assets
-│       └── images     # Images not needed by Webpack
-└── src
-    ├── _data          # Eleventy data folder
-    ├── _includes
-    │   └── layouts    # HTML layout files
-    ├── assets         # Assets folder that needs to be processed by Webpack
-    │   ├── images
-    │   │   └── posts  # Images used in your blog posts (will be compressed by Webpack)
-    │   └── styles     # Your blog CSS files
-    └── posts          # Your blog posts
-```
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-### Customization
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-You can easily configure Eleventy Starter Boilerplate. Please change the following file:
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-- `public/assets/images/logo.png`: your blog logo
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your blog favicon, you can generate from https://favicon.io/favicon-converter/
-- `src/_data/site.json`: your blog configuration
-- `src/_includes/layouts`: your blog HTML layout
-- `src/assets/styles/main.css`: your blog CSS file using Tailwind CSS
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-### Deploy to production
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-You can see the results locally in production mode with:
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-```
-npm run serve
-```
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-The generated HTML and CSS files are minified. It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-You can create an optimized production build with:
+9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
-```
-npm run build
-```
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-Now, your blog is ready to be deployed. All generated files are located at `_site` folder, which you can deploy with any hosting service.
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-### Deploy to Netlify
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-Clone this repository on own GitHub account and deploy to Netlify:
+## 🎓 Learning Gatsby
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Eleventy-Starter-Boilerplate)
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
 
-### Contributions
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-### License
+## 💫 Deploy
 
-Licensed under the MIT License, Copyright © 2020
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
 
-See [LICENSE](LICENSE) for more information.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
 
----
-
-Made with ♥ by [Ixartz](https://github.com/ixartz)
+<!-- AUTO-GENERATED-CONTENT:END -->

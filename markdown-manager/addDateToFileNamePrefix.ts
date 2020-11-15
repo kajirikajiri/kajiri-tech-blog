@@ -20,5 +20,5 @@ const addDateToFileNamePrefix = (dir:string)=>{
   changeFileName(filePathList)
 }
 
-const dir:string = './src/posts/'
+const dir:string = './content/blog/'
 addDateToFileNamePrefix(dir)
