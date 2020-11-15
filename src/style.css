@@ -351,14 +351,14 @@ html {
 .blog-post h1{
   margin-top: 29px;
   font-size:48px !important;
-  color: #3258ff;
+  color: #3258ff79;
 }
 .blog-post h1:before{
   content: '# ';
 }
 .blog-post h2{
   margin-top: 29px;
-  color: #fa8e22;
+  color: #fa8e2279;
   font-size:36px !important;
 }
 .blog-post h2:before{
@@ -367,7 +367,7 @@ html {
 .blog-post h3{
   margin-top: 29px;
   font-size:24px !important;
-  color: #e628ff;
+  color: #e628ff79;
 }
 .blog-post h3:before{
   content: '### ';
@@ -375,14 +375,14 @@ html {
 .blog-post h4{
   margin-top: 29px;
   font-size:20px !important;
-  color: #ff3265;
+  color: #ff326579;
 }
 .blog-post h4:before{
   content: '#### ';
 }
 .blog-post h5{
   margin-top: 29px;
-  color: #9326ff;
+  color: #9326ff79;
   font-size:18px !important;
 }
 .blog-post h5:before{
@@ -391,7 +391,7 @@ html {
 .blog-post h6{
   margin-top: 29px;
   font-size:17px !important;
-  color: #19e924;
+  color: #19e92479;
 }
 .blog-post h6:before{
   content: '###### ';
