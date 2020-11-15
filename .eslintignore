@@ -2,3 +2,4 @@ node_modules
 public
 .eslintrc.js
 gatsby-node.js
+gatsby-config.js

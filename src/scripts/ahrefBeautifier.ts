@@ -1,12 +1,16 @@
 export const ahrefBeautifier = () => {
-  const ahrefs = document.querySelectorAll("article section a")
+  const ahrefs = document.querySelectorAll("article > section > p > a")
   ahrefs.forEach(ahref => {
-    const url = ahref.innerHTML
-    const domainName = extractRootDomain(url)
-    ahref.innerHTML = "🔍 " + domainName
+    let url = ahref.innerHTML
+    if (validURL(url)) {
+      url = extractRootDomain(url)
+    }
+    ahref.innerHTML = "🔍 " + url
+    ahref.setAttribute("target", "_blank")
+    ahref.setAttribute("rel", "noreferrer noopener")
     ahref.setAttribute(
       "style",
-      "height:45px;display:flex;padding-left:15px;align-items:center;text-decoration:none !important;border:1px solid;border-radius: 5px;  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);"
+      "width:100px;height:45px;padding: 1px 6px;text-decoration:none !important;border:1px solid;border-radius: 5px;  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);"
     )
   })
 }
@@ -45,4 +49,17 @@ function extractHostname(url: string) {
   hostname = hostname.split("?")[0]
 
   return hostname
+}
+
+function validURL(str: string) {
+  const pattern = new RegExp(
+    "^(https?:\\/\\/)?" + // protocol
+      "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name
+      "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+      "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+      "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+      "(\\#[-a-z\\d_]*)?$",
+    "i"
+  ) // fragment locator
+  return !!pattern.test(str)
 }
