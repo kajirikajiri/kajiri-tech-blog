@@ -5,7 +5,25 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+const BlogIndex = ({
+  data,
+  location,
+}: {
+  data: {
+    previous: { fields: { slug: string }; frontmatter: { title: string } }
+    next: { fields: { slug: string }; frontmatter: { title: string } }
+    markdownRemark: any
+    allMarkdownRemark: {
+      nodes: {
+        fields: { slug: string }
+        excerpt: string
+        frontmatter: { title: string; date: string; description: string }
+      }[]
+    }
+    site: { siteMetadata?: { title: string } }
+  }
+  location: { pathname: string }
+}) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
@@ -15,9 +33,9 @@ const BlogIndex = ({ data, location }) => {
         <SEO title="All posts" />
         <Bio />
         <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
+          No blog posts found. Add markdown posts to &ldquo;content/blog&ldquo;
+          (or the directory you specified for the
+          &ldquo;gatsby-source-filesystem&ldquo; plugin in gatsby-config.js).
         </p>
       </Layout>
     )
