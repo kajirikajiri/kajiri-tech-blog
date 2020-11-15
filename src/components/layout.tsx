@@ -6,7 +6,7 @@ const Layout = ({
   title,
   children,
 }: {
-  location: string
+  location: { pathname: string }
   title: string
   children: any
 }) => {
