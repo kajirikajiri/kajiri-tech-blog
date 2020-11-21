@@ -1,25 +1,25 @@
 ---
 title: wsl2で同じ環境を複数つくる
 description: Windows Subsystem for Linuxで同じ環境を複数作成する方法を共有します。
-date: 2020-11-15 18:00:54
+date: 2020-11-21T20:52:28.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/15 18:00:54 1588cc2</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
 <details><summary>headline</summary><div>
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+<!-- toc -->
 
 - [なぜやろうとしたか](#%E3%81%AA%E3%81%9C%E3%82%84%E3%82%8D%E3%81%86%E3%81%A8%E3%81%97%E3%81%9F%E3%81%8B)
 - [流れ](#%E6%B5%81%E3%82%8C)
 - [詳細な流れ](#%E8%A9%B3%E7%B4%B0%E3%81%AA%E6%B5%81%E3%82%8C)
 - [ついでに](#%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- tocstop -->
 
 </div></details>
 
@@ -71,3 +71,4 @@ wsl -l -v
 バックアップもできます。wsl --export を使います。
 
 [qiita](https://qiita.com/souyakuchan/items/9f95043cf9c4eda2e1cc)
+

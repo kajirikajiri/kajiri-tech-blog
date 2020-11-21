@@ -1,24 +1,24 @@
 ---
 title: vuejsでコメントを記述する他の方法
 description: vuejsのtemplateタグの内側でコメントアウトする方法がもう一つあったので共有します
-date: 2020-11-15 18:00:54
+date: 2020-11-21T20:52:28.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/15 18:00:54 1588cc2</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
 <details><summary>headline</summary><div>
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+<!-- toc -->
 
 - [注意事項](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85)
 - [codesandbox](#codesandbox)
 - [例](#%E4%BE%8B)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- tocstop -->
 
 </div></details>
 
@@ -47,3 +47,4 @@ vue3だとcompileエラー出ました。
 ```
 
 {{ /* コメント */ }}こっちは見たことなかった。
+
