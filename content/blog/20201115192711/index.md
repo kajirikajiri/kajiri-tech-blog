@@ -1,11 +1,11 @@
 ---
 title: Cannot find name '__PATH_PREFIX__'
 description: jsからtsに置き換えている時に発生したエラーを修正する方法です
-date: 2020-11-15 20:37:47
+date: 2020-11-21 19:40:34
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/15 20:37:47 92a34cc</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -15,7 +15,7 @@ date: 2020-11-15 20:37:47
 
 
 - [エラーメッセージ](#%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8)
-- [⭕ 解決](#-%E8%A7%A3%E6%B1%BA)
+- [解決⭕](#%E8%A7%A3%E6%B1%BA)
 - [参考リンク](#%E5%8F%82%E8%80%83%E3%83%AA%E3%83%B3%E3%82%AF)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -30,7 +30,7 @@ date: 2020-11-15 20:37:47
 Cannot find name '__PATH_PREFIX__'.ts(2304)
 ```
 
-# ⭕ 解決
+# 解決⭕
 
 ```javascript
 declare const __PATH_PREFIX__: string
