@@ -1,10 +1,11 @@
 ---
 title: markdown test
 description: markdownの動作確認です
-date: 2020-11-21T20:48:35.000Z
+date: 2020-11-21T20:49:09.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/21 20:48:37 d1ff8f1</li>
 <li>2020/11/15 18:00:54 1588cc2</li>
 <li>2020/11/15 14:28:21 3ba1774</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
@@ -42,7 +43,6 @@ date: 2020-11-21T20:48:35.000Z
 </div></details>
 
 <!-- toc area end -->
-
 
 # 見出し1
 
@@ -191,6 +191,7 @@ puts 1 + 1
 
 
 [^1]: 参照先です
+
 
 
 
