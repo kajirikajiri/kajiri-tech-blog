@@ -65,8 +65,7 @@
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
       "prettier --write",
-      "eslint --fix",
-      "eslint"
+      "eslint --fix"
     ],
     "*.json": [
       "prettier --write"
