@@ -350,7 +350,7 @@ html {
 }
 .blog-post h1{
   margin-top: 29px;
-  font-size:48px !important;
+  font-size:35px !important;
   color: #3258ff79;
 }
 .blog-post h1:before{
@@ -359,14 +359,14 @@ html {
 .blog-post h2{
   margin-top: 29px;
   color: #fa8e2279;
-  font-size:36px !important;
+  font-size:30px !important;
 }
 .blog-post h2:before{
   content: '## ';
 }
 .blog-post h3{
   margin-top: 29px;
-  font-size:24px !important;
+  font-size:22px !important;
   color: #e628ff79;
 }
 .blog-post h3:before{
