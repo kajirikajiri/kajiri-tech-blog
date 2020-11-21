@@ -10,3 +10,5 @@ import "./src/style.css"
 // import "prismjs/themes/prism.css"
 import "./src/prism-atom-dark.css"
 
+// https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo/
+import "./src/copy-codeblock.css"

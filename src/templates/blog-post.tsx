@@ -6,6 +6,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { addIdToHeadlines } from "../scripts/addIdToHeadLines"
 import { ahrefBeautifier } from "../scripts/ahrefBeautifier"
+import { compressDetailsTag } from "../scripts/compressDetailsTag"
+import { detailsTagInnerBeautifier } from "../scripts/detailsTagInnerBeautifier"
+import { closeDetailsTag } from "../scripts/closeDetailsTag"
+import { addCopyButtonToCodeblocks } from "../scripts/addCopyButtonToCodeblocks"
 
 const BlogPostTemplate = ({
   data,
@@ -26,6 +30,10 @@ const BlogPostTemplate = ({
   useEffect(() => {
     addIdToHeadlines()
     ahrefBeautifier()
+    addCopyButtonToCodeblocks()
+    detailsTagInnerBeautifier()
+    compressDetailsTag()
+    closeDetailsTag()
   })
   return (
     <Layout location={location} title={siteTitle}>
