@@ -1,10 +1,11 @@
 ---
 title: testcafeで見えているelementを対象にテストしたい時
 description: 'testcafeでinvisibleな要素(display none, visibility hidden)以外を対象にする方法を共有します'
-date: 2020-11-22T23:17:01.000Z
+date: 2020-11-22T23:17:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/22 23:17:03 2415e38</li>
 <li>2020/11/22 23:14:52 22228f3</li>
 </ol></div></details>
 <!-- history area end -->
@@ -13,8 +14,8 @@ date: 2020-11-22T23:17:01.000Z
 
 <!-- toc -->
 
-- [❌invisibleな要素を含む](#%E2%9D%8Cinvisible%E3%81%AA%E8%A6%81%E7%B4%A0%E3%82%92%E5%90%AB%E3%82%80)
 - [⭕️visibleな要素のみ](#%E2%AD%95%EF%B8%8Fvisible%E3%81%AA%E8%A6%81%E7%B4%A0%E3%81%AE%E3%81%BF)
+- [❌invisibleな要素を含む](#%E2%9D%8Cinvisible%E3%81%AA%E8%A6%81%E7%B4%A0%E3%82%92%E5%90%AB%E3%82%80)
 - [reference](#reference)
 - [解説](#%E8%A7%A3%E8%AA%AC)
 
@@ -24,16 +25,16 @@ date: 2020-11-22T23:17:01.000Z
 
 <!-- toc area end -->
 
-# ❌invisibleな要素を含む
-
-```javascript
-Selector()
-```
-
 # ⭕️visibleな要素のみ
 
 ```javascript
 Selector().filterVisible()
+```
+
+# ❌invisibleな要素を含む
+
+```javascript
+Selector()
 ```
 
 # reference
@@ -55,5 +56,6 @@ display: noneまたはvisibility: hiddenのCSSプロパティを持たず、widt
 - visibility: hidden;
 - width: 0;
 - height: 0;
+
 
 
