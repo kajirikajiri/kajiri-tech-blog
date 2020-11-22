@@ -1,11 +1,11 @@
 ---
 title: Obsidianのベストプラクティスを読んだ
 description: Obsidianを始めようとした時、まずは真似することから始めようと思い、ベストプラクティスを調べました
-date: 2020-11-22T21:33:24.000Z
+date: 2020-11-22T21:38:49.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/22 21:33:26 2a5c5ff</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -13,16 +13,24 @@ date: 2020-11-22T21:33:24.000Z
 
 <!-- toc -->
 
+- [結果](#%E7%B5%90%E6%9E%9C)
 - [Linking Your Thinking](#linking-your-thinking)
 - [他の人のObsidianの見本](#%E4%BB%96%E3%81%AE%E4%BA%BA%E3%81%AEobsidian%E3%81%AE%E8%A6%8B%E6%9C%AC)
 - [基本的な運用](#%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E9%81%8B%E7%94%A8)
 - [ディレクトリわけ](#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%82%8F%E3%81%91)
+- [obsidianの使い方とかが書いてるさいと](#obsidian%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%81%A8%E3%81%8B%E3%81%8C%E6%9B%B8%E3%81%84%E3%81%A6%E3%82%8B%E3%81%95%E3%81%84%E3%81%A8)
+- [obsidian本体](#obsidian%E6%9C%AC%E4%BD%93)
 
 <!-- tocstop -->
 
 </div></details>
 
 <!-- toc area end -->
+
+# 結果
+LYTとzettelkasten[^2]に則って書くことにしました。
+LYTはもくじを書いて、後から見返しても意味がわからなくならないようにしているようでした。
+zettelkastenは1つのメモに詰め込まず、ほかのメモに必ずリンクをしていました。
 
 # Linking Your Thinking
 
@@ -60,7 +68,16 @@ create new zettelkastenはobsidianの設定>core plugins>zettelkasten prefixer�
 
 ![obsidian_directory](./obsidian_directory.png)
 
+# obsidianの使い方とかが書いてるさいと
+
+https://forum.obsidian.md/
+
+# obsidian本体
+
+https://obsidian.md/
+
 [^1]: MOCは[Maps of Contents](https://publish.obsidian.md/lyt-kit/MOCs+Overview)です
 [^2]: Zettelkastenは[効率的なノートの書き方](https://gigazine.net/news/20200604-zettelkasten-note/)です
+
 
 
