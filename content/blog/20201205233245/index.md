@@ -1,11 +1,11 @@
 ---
 title: obsidianで今使っているプラグイン３個
 description: obsidianというマークダウンエディタで使用しているプラグインで現在使っているもの３個と、良さそうなプラグイン３個を共有します
-date: 2020-12-06T00:14:49.000Z
+date: 2020-12-06T03:31:33.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/06 00:14:51 e200bf5</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -39,7 +39,7 @@ date: 2020-12-06T00:14:49.000Z
 
 # Code block copy
 
-![code-block](./codeblock.png)
+![codeblock](./codeblock.png)
 
 コードブロック右上にコピーボタンが付きます。かっこいい！
 
@@ -59,4 +59,5 @@ date: 2020-12-06T00:14:49.000Z
   - markdownで書いたテーブルが見やすくなります
 - Obsidian git
   - obsidianをgitで同期的に管理してくれます
+
 
