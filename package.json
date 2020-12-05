@@ -79,7 +79,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "commit": "git add ./content/blog/ && ./node_modules/.bin/ts-node ./markdown-manager/addHeaderToMarkdown.ts && ./node_modules/.bin/ts-node ./markdown-manager/addToc.ts && git add ./content/blog/ && git commit -m 'yarn commit' && git push",
+    "commit": "git add ./content/blog/*.md && ./node_modules/.bin/ts-node ./markdown-manager/addHeaderToMarkdown.ts && ./node_modules/.bin/ts-node ./markdown-manager/addToc.ts && git add ./content/blog/ && git commit -m 'yarn commit' && git push",
     "new": "./node_modules/.bin/ts-node ./createFile.ts"
   }
 }
