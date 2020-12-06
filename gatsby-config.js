@@ -5,7 +5,7 @@ module.exports = {
       name: `Kazuki Nakamura`,
       summary: `who lives and works in Japan building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `This blog written by kajiri`,
     siteUrl: `https://kajirikajiri.netlify.app/`,
     social: {
       twitter: `kajirikajiri`,
