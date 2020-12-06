@@ -1,11 +1,11 @@
 ---
-title: reactで空のactを実行したらErrorが消えた.md
+title: reactで空のactを実行したらErrorが消えた
 description: reactでjestのtest中に発生したエラーを解決する方法を共有します。
-date: 2020-11-28T20:23:11.000Z
+date: 2020-12-06T18:36:39.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/28 20:23:13 24afc13</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -81,4 +81,5 @@ test("", async()=>{
   expect(result.current).toEqual([[], true])
 })
 ```
+
 
