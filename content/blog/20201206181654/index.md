@@ -1,10 +1,11 @@
 ---
-title: 3000円以下でslack通知してくれるsmart watchを買った(2020/12/06)
+title: 2980円(2020/12/06)でslack通知してくれるsmart watchを買った
 description: 使っていたsmart watchが特定のアプリしか通知してくれないので、slackでも通知してくれるsmart watchを買いました。
-date: 2020-12-06T18:40:40.000Z
+date: 2020-12-06T18:41:49.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/12/06 18:40:42 b637d6d</li>
 <li>2020/12/06 18:36:41 7d563a7</li>
 </ol></div></details>
 <!-- history area end -->
@@ -47,5 +48,6 @@ twitterとか調べても情報がなかった
 # リンク
 
 <a notChange href="https://www.amazon.co.jp/gp/product/B0863GTKY3/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=kajirikajiri-22&linkId=5874c870294b55e23a6772ff283bcce6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0863GTKY3&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kajirikajiri-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=kajirikajiri-22&language=ja_JP&l=li2&o=9&a=B0863GTKY3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
 
