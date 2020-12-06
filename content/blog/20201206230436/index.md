@@ -1,10 +1,11 @@
 ---
 title: SOLIDのSについて調べた
 description: SOLIDのSはSRP。Single Responsibility Principle
-date: 2020-12-06T23:43:14.000Z
+date: 2020-12-06T23:44:18.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/12/06 23:43:16 3c7a35b</li>
 <li>2020/12/06 23:20:11 e198fb1</li>
 </ol></div></details>
 <!-- history area end -->
@@ -90,11 +91,12 @@ console.log(bobSettings)
 ```
 
 この実装なら、UserはUserの変更（名前）のみを請け負ってるし、Userの通知に関して変更する場合はUserSettingsをUserを引数にとって実装する必要があり、機能ごとに分割できていると思った。
-気づいた問題点を上げる
+
+**気づいた問題点を上げる**
 - UserSettingsがUserを受け取っているが使っていない
   - rubyだと、userインスタンスを受け取ってuserに保存する必要があるので、setNoticeTypeでthis.#user.noticeType = valueみたいに使うだろうと思ってこうした。
 
-いいと思った点
+**いいと思った点**
 - UserSettingsからUsreが見えない。
   - consoleに出力するとわかるが、UserSettingsからはUserが見えない。#でprivateなアクセサを定義できる。TypeScript3.8から使えるようだ
     - https://www.typescriptlang.org/docs/handbook/classes.html#ecmascript-private-fields
@@ -102,5 +104,6 @@ console.log(bobSettings)
 # repository
 
 https://github.com/kajirikajiri/solid-principles
+
 
 
