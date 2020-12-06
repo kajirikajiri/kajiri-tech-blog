@@ -1,11 +1,11 @@
 ---
 title: SOLIDのSについて調べた
 description: SOLIDのSはSRP。Single Responsibility Principle
-date: 2020-12-06T23:20:09.000Z
+date: 2020-12-06T23:43:14.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/06 23:20:11 e198fb1</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -26,10 +26,10 @@ date: 2020-12-06T23:20:09.000Z
 # まず調べてみた
 
 https://www.bookstack.cn/read/clean-code-javascript/spilt.6.README.md
-- s,o,l,i,dそれぞれに完結な例が乗っていてわかりやすく感じた。
+- s,o,l,i,dそれぞれに簡潔な例が乗っていてわかりやすく感じた。
 
 https://github.com/vladilenm/SOLID_javascript
-- このリポジトリもs,o,l,i,dそれぞれの完結な例文
+- このリポジトリもs,o,l,i,dそれぞれの簡潔な例文
 
 https://qiita.com/gomi_ningen/items/02c42e2487d035f9c3c8
 - クラスを変更する理由は複数存在してはいけない
@@ -102,4 +102,5 @@ console.log(bobSettings)
 # repository
 
 https://github.com/kajirikajiri/solid-principles
+
 
