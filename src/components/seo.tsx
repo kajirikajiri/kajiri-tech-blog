@@ -66,7 +66,9 @@ const SEO = ({
         },
         {
           property: `og:image`,
-          content: `https://kajirikajiri.netlify.app/ogp.png`,
+          content: `https://kajirikajiri.netlify.app/ogp-${
+            Math.floor(Math.random() * 5) + 1
+          }.png`,
         },
         {
           name: `twitter:card`,
