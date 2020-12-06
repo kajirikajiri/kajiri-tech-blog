@@ -1,10 +1,11 @@
 ---
 title: reactで空のactを実行したらErrorが消えた
 description: reactでjestのtest中に発生したエラーを解決する方法を共有します。
-date: 2020-12-06T18:36:39.000Z
+date: 2020-12-06T18:39:43.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/12/06 18:36:41 7d563a7</li>
 <li>2020/11/28 20:23:13 24afc13</li>
 </ol></div></details>
 <!-- history area end -->
@@ -71,15 +72,16 @@ jest.mock('../../api/getApps')
 test("", async()=>{
   (getApps as jest.Mock).mockReturnValueOnce(Promise.reject())
   const {result, rerender} = renderHook(()=>useApps())
-  await act(async()=>{})
+  await act(async()=>{}) // ← add this line
   expect(result.current).toEqual([[], false])
 })
 test("", async()=>{
   (getApps as jest.Mock).mockReturnValueOnce(Promise.resolve([]))
   const {result} = renderHook(()=>useApps())
-  await act(async()=>{})
+  await act(async()=>{}) // ← add this line
   expect(result.current).toEqual([[], true])
 })
 ```
+
 
 
