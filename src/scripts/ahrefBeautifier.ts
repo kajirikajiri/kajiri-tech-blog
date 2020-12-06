@@ -1,6 +1,9 @@
 export const ahrefBeautifier = () => {
   const ahrefs = document.querySelectorAll("article > section > p > a")
   ahrefs.forEach(ahref => {
+    const notChange = ahref.hasAttribute("notChange")
+    if (notChange) return
+
     let url = ahref.innerHTML
     if (url.startsWith("http")) {
       url = extractRootDomain(url)
