@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://kajirikajiri.netlify.app/sitemap.xml
