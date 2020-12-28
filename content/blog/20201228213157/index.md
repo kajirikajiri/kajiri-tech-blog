@@ -1,11 +1,11 @@
 ---
 title: JavaScriptの関数の書き方に別の種類があった
 description: ReactのuseEffectを見ていたら使ったことがない関数の書き方をしていたので共有します
-date: 2020-12-28T21:46:01.000Z
+date: 2020-12-28T21:54:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/28 21:46:03 c9378c1</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -49,4 +49,10 @@ https://ja.reactjs.org/docs/hooks-overview.html#effect-hook
 
 # おまけ
 JavaScriptは表現豊かですばらしいなー（こんなコードはプログラミング始めた頃に見せられても絶対理解できない!!と思った）
+よく考えればmapで使ってるなと思った
+
+```javascript
+const a = b => b
+[1,2].map(a)
+```
 
