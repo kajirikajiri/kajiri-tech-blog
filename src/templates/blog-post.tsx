@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
@@ -24,6 +24,7 @@ const BlogPostTemplate = ({
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const [form, setForm] = useState<boolean>(false)
 
   useEffect(() => {
     addIdToHeadlines()
@@ -81,6 +82,28 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+      {form ? (
+        <form action="https://formspree.io/f/mjvppjne" method="POST">
+          <label style={{ display: "block" }}>
+            email:
+            <input type="text" name="_replyto" />
+          </label>
+          <label style={{ display: "block" }}>
+            message:
+            <input type="text" name="message"></input>
+          </label>
+          <input
+            type="hidden"
+            name="page-title"
+            value={post.frontmatter.title}
+          />
+          <button type="submit">Send</button>
+        </form>
+      ) : (
+        <a style={{ cursor: "pointer" }} onClick={() => setForm(true)}>
+          contact
+        </a>
+      )}
     </Layout>
   )
 }
