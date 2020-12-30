@@ -1,11 +1,11 @@
 ---
 title: apple shortcut sample
 description: apple shortcutのsampleです。役立ててください
-date: 2020-12-30T18:38:25.000Z
+date: 2020-12-30T18:41:02.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/30 18:38:27 8798710</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -23,6 +23,7 @@ date: 2020-12-30T18:38:25.000Z
 
 <!-- toc area end -->
 
+** apple shortcutのサンプルです。iPhoneからクリックすると追加するための確認画面に飛ぶので追加して使ってください **
 # Get Request
 https://www.icloud.com/shortcuts/76736669d20e4a8989f05dbd25e898cb
 
@@ -33,4 +34,5 @@ https://www.icloud.com/shortcuts/570d906472e644c887a6976e66519e33
 https://www.icloud.com/shortcuts/fbb3ef4da7054ae9ba8a481394ead2e3
 
 リンク切れあればtwitterかcontact(50件/月)に連絡をお願いします。質問・依頼も
+
 
