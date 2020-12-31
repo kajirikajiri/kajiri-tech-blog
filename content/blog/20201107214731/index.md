@@ -1,10 +1,11 @@
 ---
 title: wsl2で同じ環境を複数つくる
 description: Windows Subsystem for Linuxで同じ環境を複数作成する方法を共有します。
-date: 2020-11-21T20:52:28.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/21 20:52:30 01341b9</li>
 <li>2020/11/15 18:00:54 1588cc2</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
@@ -24,16 +25,16 @@ date: 2020-11-21T20:52:28.000Z
 </div></details>
 
 <!-- toc area end -->
-# なぜやろうとしたか
+## なぜやろうとしたか
 自分のつかっているwsl2のUbuntu20.04が遅くなってきたので最初から作り直したかった。
 しかし、今の状態は残しておきたい。だけど、Ubuntu20.04が使いたい。
 なのでUbuntu20.04がふたつほしい。いやいっぱいほしい
 
-# 流れ
+## 流れ
 - ubuntuをダウンロード
 - 追加する
 
-# 詳細な流れ
+## 詳細な流れ
 まずはubuntuをダウンロードします
 
 [Ubuntu16.04](https://cloud-images.ubuntu.com/xenial/current/)
@@ -67,8 +68,9 @@ wsl -l -v
 
 [元の記事](https://www.hanselman.com/blog/easily-move-wsl-distributions-between-windows-10-machines-with-import-and-export)
 
-# ついでに
+## ついでに
 バックアップもできます。wsl --export を使います。
 
 [qiita](https://qiita.com/souyakuchan/items/9f95043cf9c4eda2e1cc)
+
 

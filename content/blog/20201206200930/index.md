@@ -1,11 +1,11 @@
 ---
 title: JavaScriptの数値の判定とイベントの処理で詰まったはなし
 description: JavaScriptの数値の判定にはtypeofを使っていましたが結果、詰まったので共有します
-date: 2020-12-06T20:13:14.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/06 20:13:16 2ed12f5</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,7 +24,7 @@ date: 2020-12-06T20:13:14.000Z
 
 <!-- toc area end -->
 
-# まとめ
+## まとめ
 
 ⭕ 数値型の判定に使う
 
@@ -50,7 +50,7 @@ date: 2020-12-06T20:13:14.000Z
 ```
 
 
-# JavaScriptで数値判定といえば
+## JavaScriptで数値判定といえば
 
 自分はこれでやってきた
 
@@ -68,7 +68,7 @@ if (typeof 1 === 'number') {
 
 これでイケルと思ってた
 
-# 今回の内容
+## 今回の内容
 
 inputのイベントonChangeをトリガーにして、inputに入力された値を取得し、それが数値であれば計算を行う。というプログラムを作成した
 
@@ -211,7 +211,8 @@ function handleChange(event) {
 </script>
 ```
 
-# reference
+## reference
 
 [reference qiita](https://qiita.com/taku-0728/items/329e0bee1c49b7ce7cd1)
+
 

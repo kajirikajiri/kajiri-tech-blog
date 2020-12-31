@@ -1,11 +1,11 @@
 ---
 title: wasmを勉強する2
 description: 前回に続きwasmを勉強したので共有します
-date: 2020-12-29T03:40:38.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/29 03:40:40 8628dd7</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -210,6 +210,7 @@ fn calculate_length(s: &String) -> usize {
 
 とりあえずさっきのgreetに引数渡せるようになった。ok。
 
-# github
+## github
 [link](https://github.com/kajirikajiri/rust-js-wasm-2)
+
 

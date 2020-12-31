@@ -1,11 +1,11 @@
 ---
 title: parcelってなんなのか
 description: parcelってよく聞くけど、よく聞くなーくらいにしか思ってなかったので調べてみた
-date: 2020-12-27T21:19:13.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 21:19:15 b5df5a9</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -23,7 +23,7 @@ date: 2020-12-27T21:19:13.000Z
 
 <!-- toc area end -->
 
-# 結論
+## 結論
 webpackのようなもの
 module bundler
 ってことでwebpackみたいなものだなーと思っておきます
@@ -33,11 +33,12 @@ module bundler
 - 設定が不要
 - ホットモジュールリプレイスメント(見たかんじホットリロードに対応してますよってこと)
 
-# 参考
+## 参考
 https://qiita.com/soarflat/items/3e43368b2d767c730781
 https://ja.parceljs.org/
 
-# おまけ
+## おまけ
 ていうかparcel公式より、qiitaの記事が上にくるってどうなんGoogleさん
 モジュールバンドラは便利に扱えるもの程度の認識なので深堀りはしない
+
 

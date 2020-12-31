@@ -1,11 +1,11 @@
 ---
 title: use-query-paramsにPRだした(続き
 description: use-query-paramsにPRをだしたらmargeされました!
-date: 2020-12-28T14:40:58.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/28 14:41:00 7b65d41</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -22,10 +22,10 @@ date: 2020-12-28T14:40:58.000Z
 
 <!-- toc area end -->
 
-# マージされた
+## マージされた
 https://github.com/pbeshai/use-query-params/pull/139
 
-# かんそう
+## かんそう
 [前回のDenoへのPR](https://kajirikajiri.netlify.app/20201129205614/)はgood-first-issueというやつでPRだしてみようぜ！みたいなやつだった
 それでも結構びびってたし、[実際マージされなかった](https://kajirikajiri.netlify.app/20201206000530/)けどPRのだしかたを覚えることができた
 いつも仕事で出すPRだとmasterからブランチを作りmasterにPRをだすというかんじ
@@ -40,4 +40,5 @@ original-repository/master ← forked-repository/master
 一旦フォークして、自分のリポジトリにしてからpushする点が違った。
 もちろん最初はフォークせずにブランチを切ったのでPRを出すことができず失敗した
 いい経験になった
+
 

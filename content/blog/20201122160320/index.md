@@ -1,11 +1,11 @@
 ---
 title: vuejsでcancelボタンを実装する
 description: vuejsでcancelボタンを実装が面倒だったので記事にしました
-date: 2020-11-22T16:07:54.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/22 16:07:56 ca5e51a</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -25,7 +25,7 @@ date: 2020-11-22T16:07:54.000Z
 
 <!-- toc area end -->
 
-# codesandboxの実装例
+## codesandboxの実装例
 
 <iframe src="https://codesandbox.io/embed/restless-mountain-xqoix?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -34,7 +34,7 @@ date: 2020-11-22T16:07:54.000Z
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-# 実際のコード
+## 実際のコード
 
 ```javascript
 <template>
@@ -62,13 +62,14 @@ export default {
 
 ```
 
-# 欠点
+## 欠点
 - ２つの値を使用するのでコードを見た時に伝わりづらい気がした
 
-# 利点
+## 利点
 - あまり難しいことをしていないのでvueをあまりわからない人でも伝わると思う
 
-# 他の実装の例
+## 他の実装の例
 
 https://shimablogs.com/vue-form-edit-cancel
+
 

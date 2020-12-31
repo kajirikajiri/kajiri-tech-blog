@@ -1,11 +1,11 @@
 ---
 title: rubyのbase64encode→decodeを日本語に実行したら失敗した
 description: 日本語にrubyのbase64 encode→decodeをしたら文字化けして悩んだ時の話です。実際には文字コードが違うだけでした
-date: 2020-12-06T16:02:23.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/06 16:02:25 ba65787</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -22,11 +22,11 @@ date: 2020-12-06T16:02:23.000Z
 
 <!-- toc area end -->
 
-# 実際の出力をオンラインエディタで確認
+## 実際の出力をオンラインエディタで確認
 
 http://tpcg.io/aaIkeWVL
 
-# 実際に起きたこと
+## 実際に起きたこと
 
 ```ruby
 require 'base64'
@@ -51,4 +51,5 @@ ASCII-8BITはよく知りませんが
 rubyで文字がおかしくなったら、
 - TEXT.encoding
 で確認するようにします
+
 

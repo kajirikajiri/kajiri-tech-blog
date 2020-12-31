@@ -1,10 +1,11 @@
 ---
 title: reactで空のactを実行したらErrorが消えた
 description: reactでjestのtest中に発生したエラーを解決する方法を共有します。
-date: 2020-12-06T18:39:43.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/12/06 18:39:46 675557a</li>
 <li>2020/12/06 18:36:41 7d563a7</li>
 <li>2020/11/28 20:23:13 24afc13</li>
 </ol></div></details>
@@ -27,7 +28,7 @@ await act(async()=>{})を書いたら、Errorが消えた
 
 書けとErrorに書いてあるが、空のcallbackでいいとは思わなかッタ
 
-# Error
+## Error
 
 ```bash
   console.error
@@ -61,7 +62,7 @@ await act(async()=>{})を書いたら、Errorが消えた
       at Object.next (src/scripts/useState/useApps.ts:14:53)
 ```
 
-# 解決
+## 解決
 
 ```javascript
 import {useApps} from '../useApps'
@@ -82,6 +83,7 @@ test("", async()=>{
   expect(result.current).toEqual([[], true])
 })
 ```
+
 
 
 

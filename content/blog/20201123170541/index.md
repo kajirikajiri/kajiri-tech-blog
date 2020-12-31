@@ -1,11 +1,11 @@
 ---
 title: VanillaJSフレームワークとは
 description: VanillaJSを調べました。実際はJavaScriptそのものでした
-date: 2020-11-23T17:14:44.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/23 17:14:46 8d23c8e</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,15 +24,15 @@ date: 2020-11-23T17:14:44.000Z
 
 <!-- toc area end -->
 
-# ダウンロード先
+## ダウンロード先
 ここからダウンロードできます。
 
 http://vanilla-js.com/
 
-# ダウンロードしてみると
+## ダウンロードしてみると
 からのファイルがダウンロードできます。なにもありません。
 
-# stackoverflow
+## stackoverflow
 
 https://stackoverflow.com/a/20435744
 
@@ -41,11 +41,12 @@ https://stackoverflow.com/a/20435744
 日本語
 見ての通り、これはフレームワークでもライブラリでもありません。フレームワーク好きの上司や、JS フレームワークを使う必要があると思っている人のためのギャグです。つまり、(自分のために: レガシーではない) ブラウザが提供してくれるものを使えばいいのです (レガシーブラウザで作業するときにバニラ JS を使うのはよくありません)。
 
-# まとめ
+## まとめ
 ということでただのギャグでした
 
 vanillaの意味
 https://www.urbandictionary.com/define.php?term=vanilla
 
 不思議でない、普通の、ありきたりな、つまらない
+
 

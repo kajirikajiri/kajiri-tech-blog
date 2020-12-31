@@ -1,11 +1,11 @@
 ---
 title: ReactHooksのuseStateのソースコードを読んだらflowのことを思い出せず詰まった
 description: Reactのソースコードを読んでいたらJavaScriptファイルなのにGeneric関数がでてきて、flowのことを思い出すのに時間がかかった話です
-date: 2020-11-23T16:53:18.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/23 16:53:20 1711320</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -22,7 +22,7 @@ date: 2020-11-23T16:53:18.000Z
 
 <!-- toc area end -->
 
-# 今回読んだやつ
+## 今回読んだやつ
 
 ```javascript
 export function useState<S>(
@@ -45,6 +45,7 @@ tsファイルじゃないとだめだよって怒られるし、困りました
 typescriptはMicrosoftです。
 stackoverflowで質問の数を比較すると、[typescirptは100,000以上](https://stackoverflow.com/questions/tagged/typescript)ですが、[flowは1000未満](https://stackoverflow.com/questions/tagged/flow)となっていて、人気はTypeScriptが上のようです。
 
-# 今回読んだReactHooksのソースコード
+## 今回読んだReactHooksのソースコード
 https://github.com/facebook/react/blob/e6a0f276307fcb2f1c5bc41d630c5e4c9e95a037/packages/react/src/ReactHooks.js#L80
+
 

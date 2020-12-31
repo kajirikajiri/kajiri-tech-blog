@@ -1,11 +1,11 @@
 ---
 title: codesandboxをJavaScriptのconsoleとして埋め込みたいとき
 description: JavaScriptのconsoleを埋め込みたい時に、色々調べた結果codesandboxに落ち着いたのでその時のurlパラメータを共有します
-date: 2020-11-28T22:28:32.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/28 22:28:34 5cee825</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -22,15 +22,16 @@ date: 2020-11-28T22:28:32.000Z
 
 <!-- toc area end -->
 
-# URLパラメータ
+## URLパラメータ
 
 ```bash
 # urlの後ろに付加してください
 ?previewwindow=console&view=split
 ```
 
-# 参照
+## 参照
 
 urlパラメータの公式blog
 https://codesandbox.io/docs/embedding
+
 

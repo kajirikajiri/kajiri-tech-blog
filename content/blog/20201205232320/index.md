@@ -1,11 +1,11 @@
 ---
 title: vscodeにsolargraphをいれようとしたら最新版が入ってエラー
 description: vscodeにsolargraphを入れようとしたら、最新のversionがinstallされてしまいエラーが発生したので修正した時のことを共有します
-date: 2020-12-05T23:28:05.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/05 23:28:07 9476286</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -26,13 +26,13 @@ date: 2020-12-05T23:28:05.000Z
 
 <!-- toc area end -->
 
-# 環境
+## 環境
 
 - windows 10
 - wsl2 Ubuntu 20.04
 - rbenv
 
-# 1.bundler が古く、solargraphがエラーを出力
+## 1.bundler が古く、solargraphがエラーを出力
 
 ```ruby
 gem install solargraph -v 0.31.2
@@ -63,7 +63,7 @@ version指定をせず、gem install solargraphとした場合、bundlerのバ�
 
 また、上記エラーが発生している状態で別のディレクトリでsolargraphを実行すると動いたりするが、これはbundlerのバージョンが異なっているために(rbenvとかで)発生していた。
 
-# 2.bundlerのバージョンが間違っている場合
+## 2.bundlerのバージョンが間違っている場合
 
 ```ruby
 rbenv global YOUR_RUBY_VERSION
@@ -72,7 +72,7 @@ rbenv global YOUR_RUBY_VERSION
 上でも書いたが、BUNDLED WITHがGemfile.lockに書いてある。このバージョンと自分のbundlerのバージョンが違うと、不具合が起きやすいので揃えた方がいい。
 自分の場合、rbenvを使っていて、rbenv globalに指定したrubyのバージョンで導入したbundlerとBUNDLED WITHに指定されたbundlerのバージョンが違うために、bundle install に失敗することがあった。
 
-# 3.vscodeの設定
+## 3.vscodeの設定
 
 ```json
   "solargraph.useBundler": false,
@@ -87,9 +87,10 @@ which solargraph
 
 で出力されたものを使用すればいいと思う。プロジェクトにsolargraphが入っている場合、solargraph.useBundler: trueで動くと思うがその状況になったことがまだない。
 
-# おまけ
+## おまけ
 クラス名をクリックして移動できるとやっぱり楽！solargraphはぜひ入れましょう
 
-# link
+## link
 [rbenv](https://github.com/rbenv/rbenv)
+
 

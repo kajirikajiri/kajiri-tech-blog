@@ -1,11 +1,11 @@
 ---
 title: gatsbyとtailwindcssでclassNameが再レンダリングされない
 description: gatsbyとtailwindcssでclassNameが再レンダリングされなくて結果tag名の重複をさけた
-date: 2020-12-27T22:36:38.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 22:36:40 014b342</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,7 +24,7 @@ date: 2020-12-27T22:36:38.000Z
 
 <!-- toc area end -->
 
-# 状況
+## 状況
 
 ```javascript
 import React from 'react';
@@ -53,7 +53,7 @@ export default Index
 
 こんなかんじでコンポーネントを書いて、loadingが終了した時にclassNameのmb-20 mt-10が引き継がれていた。
 
-# なぜか
+## なぜか
 わかりませんでしたー
 
 ただ、react公式をみるに、classNameの変更は検知してくれる
@@ -62,7 +62,7 @@ https://ja.reactjs.org/docs/reconciliation.html#dom-elements-of-the-same-type
 
 で結局、divタグみたいな挙動をしてくれればよかったので、利用頻度の低そうなmainタグで代用しました
 
-# 結果
+## 結果
 
 ```javascript
 import React from 'react';
@@ -89,10 +89,11 @@ export default Index
 
 ```
 
-# おまけ
+## おまけ
 たぶんreact, gatsby, tailwindcssあたりを見れば解決出来るんだろうけど、そこまでやる時間がありませんでした。とりあえずの解決策として上記が機能しました。
 
 また、stackoverflowをみると、keyを書いて一意にすればいけるぜ！って書いてたんだけど今回は機能しませんでした。不思議
 
 https://stackoverflow.com/questions/60339095/reactjs-re-render-is-not-applied-on-css/60339265#60339265
+
 

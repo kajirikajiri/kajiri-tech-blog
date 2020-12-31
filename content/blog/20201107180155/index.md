@@ -1,10 +1,11 @@
 ---
 title: vuejsでコメントを記述する他の方法
 description: vuejsのtemplateタグの内側でコメントアウトする方法がもう一つあったので共有します
-date: 2020-11-21T20:52:28.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/21 20:52:30 01341b9</li>
 <li>2020/11/15 18:00:54 1588cc2</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
@@ -23,10 +24,10 @@ date: 2020-11-21T20:52:28.000Z
 </div></details>
 
 <!-- toc area end -->
-# 注意事項
+## 注意事項
 vue3だとcompileエラー出ました。
 
-# codesandbox
+## codesandbox
 
 <iframe src="https://codesandbox.io/embed/vuejs-other-comment-5cjtu?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -35,7 +36,7 @@ vue3だとcompileエラー出ました。
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-# 例
+## 例
 
 ```html
 <template>
@@ -47,4 +48,5 @@ vue3だとcompileエラー出ました。
 ```
 
 {{ /* コメント */ }}こっちは見たことなかった。
+
 

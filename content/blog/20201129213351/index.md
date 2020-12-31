@@ -1,11 +1,11 @@
 ---
 title: denoにPR出そうとして苦戦した
 description: denoにPRだそうとしたら難しい部分が多くて苦戦したことをまとめました
-date: 2020-11-29T23:49:10.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/29 23:49:12 a9a9485</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -26,13 +26,13 @@ date: 2020-11-29T23:49:10.000Z
 
 <!-- toc area end -->
 
-# きっかけ
+## きっかけ
 https://note.com/maguro_tuna/n/n5e5b56479abe
 
 deno_lintにコントリビュートしている人がいて、やってみるかという気持ちがわいてきた
 
-# 対象の関数
-## buildMessage
+## 対象の関数
+### buildMessage
 https://github.com/denoland/deno/blob/097babb6fbe313cdb1d749d510e9f8eb57ba899f/std/testing/asserts.ts#L69
 
 ```javascript
@@ -60,7 +60,7 @@ function buildMessage(diffResult: ReadonlyArray<DiffResult<string>>): string[] {
 まず、buildMessageだが、Denoのテストを実行して失敗した時に表示するメッセージをきれいに整えて出力するものだった。(ActualとExpectedのDiffを赤と緑の太文字で表示する)
 それ自体はすぐわかったのだが、コメントにどう書けばいいか迷ってDeepLにたよりつつなんとかできた。
 
-## isKeyedCollection
+### isKeyedCollection
 https://github.com/denoland/deno/blob/097babb6fbe313cdb1d749d510e9f8eb57ba899f/std/testing/asserts.ts#L89
 
 ```javascript
@@ -85,7 +85,7 @@ new Map([['a', 1]]) とかをisKeyedCollectionの引数に渡してやるとtrue
 
 これらについては調べて理解したのでいつかまとめたい
 
-# エラー出た
+## エラー出た
 記事を書きながら余裕な感じでGithub Actionsのciが終わるのを待ってたら落ちた。どうなるこれ
 。。ってかきながら、来週かなと思ってたら速攻で返事きてた。
 なるほど、最新じゃないと。。クローンしたの6時間くらい前だから、バージョンアップしたか？
@@ -94,6 +94,7 @@ new Map([['a', 1]]) とかをisKeyedCollectionの引数に渡してやるとtrue
 ci通るかなー...
 とおったー。prだした。今日はおしまい
 
-# pr
+## pr
 https://github.com/denoland/deno/pull/8542
+
 

@@ -1,11 +1,11 @@
 ---
 title: wasmを勉強する
 description: wasmを勉強したので共有します
-date: 2020-12-29T03:40:38.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/29 03:40:40 8628dd7</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -29,7 +29,7 @@ wasm。聞いたことはあった、JavaScriptよりも高速にwebで動かせ
 
 で、[この記事](https://qiita.com/ShuntaShirai/items/3ac92412720789576f22#javascript%E3%81%A8%E3%81%AE%E9%96%A2%E4%BF%82)をみると、 **wasmはJavaScriptの代替ではなく、補完の目的** で作られたらしく、JavaScriptからwasmを呼び出せるらしい。これは興味がある。
 
-# tutorialを探した
+## tutorialを探した
 
 [tutorial1 MDN](https://developer.mozilla.org/ja/docs/WebAssembly/Rust_to_wasm)
 
@@ -37,7 +37,7 @@ wasm。聞いたことはあった、JavaScriptよりも高速にwebで動かせ
 
 [tutorial3 rustwasm docs](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html)
 
-# tutorialやってみた
+## tutorialやってみた
 
 
 
@@ -166,6 +166,7 @@ Entrypoint main = index.js
 ℹ ｢wdm｣: Compiled successfully.
 ```
 
-# github
+## github
 [link](https://github.com/kajirikajiri/rust-js-wasm)
+
 

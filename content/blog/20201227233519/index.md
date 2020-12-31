@@ -1,11 +1,11 @@
 ---
 title: use-query-paramsにtypoを見つけたのでPRだした
 description: お世話になっているライブラリにタイポを見つけたのでPRをだしました
-date: 2020-12-27T23:44:57.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 23:44:59 aae2082</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -48,6 +48,7 @@ Note: There is a peer dependency on query-string. For IE11 support, use v5.1.1, 
 
 [前回のDenoへのPR](https://kajirikajiri.netlify.app/20201129205614/)は[マージされることはなかった](https://kajirikajiri.netlify.app/20201206000530/)ですが、[PRの出し方](https://kajirikajiri.netlify.app/20201129205614/)は覚えました。[前回はDenoのマスターをcloneしてそこにPRを出して失敗しましたが、今回はforkしてからPRだした](https://kajirikajiri.netlify.app/20201129205614/)ので10分くらいでPRだせた！満足
 
-# PR
+## PR
 https://github.com/pbeshai/use-query-params/pull/139
+
 

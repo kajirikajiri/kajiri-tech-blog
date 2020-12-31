@@ -1,11 +1,11 @@
 ---
 title: attr_accessorで生成される値の初期値について悩んだ
 description: attr_accessorで生成される値の初期値について考えてみたのですが、考えてみたら値を代入したらそれで、代入しなかったらnilだなって思いました
-date: 2020-12-06T16:02:23.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/06 16:02:25 ba65787</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -22,11 +22,11 @@ date: 2020-12-06T16:02:23.000Z
 
 <!-- toc area end -->
 
-# 結果をオンラインエディタで確認
+## 結果をオンラインエディタで確認
 
 http://tpcg.io/kEJ3mtih
 
-# 雑に書いたサンプル
+## 雑に書いたサンプル
 
 ```ruby
 class Person
@@ -46,4 +46,5 @@ p pen.hand
 ```
 
 hand8ってなんやねん。10だろ。fingerか
+
 

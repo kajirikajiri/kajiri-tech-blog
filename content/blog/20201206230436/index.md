@@ -1,10 +1,11 @@
 ---
 title: SOLIDのSについて調べた
 description: SOLIDのSはSRP。Single Responsibility Principle
-date: 2020-12-06T23:44:18.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/12/06 23:44:20 f1bac84</li>
 <li>2020/12/06 23:43:16 3c7a35b</li>
 <li>2020/12/06 23:20:11 e198fb1</li>
 </ol></div></details>
@@ -24,7 +25,7 @@ date: 2020-12-06T23:44:18.000Z
 
 <!-- toc area end -->
 
-# まず調べてみた
+## まず調べてみた
 
 https://www.bookstack.cn/read/clean-code-javascript/spilt.6.README.md
 - s,o,l,i,dそれぞれに簡潔な例が乗っていてわかりやすく感じた。
@@ -37,7 +38,7 @@ https://qiita.com/gomi_ningen/items/02c42e2487d035f9c3c8
 - 変化の兆候がないのにSRPを含めた原則を適用するのは賢明ではない。原則を適用することを目的にするのはナンセンスである。
 - 結合している役割を見つけそれらを分離する作業は、ソフトウェア設計の本質である
 
-# 実装してみた
+## 実装してみた
 上記記事を読んで、 `変化の兆候がないのにSRPを含めた原則を適用するのは賢明ではない。原則を適用することを目的にするのはナンセンスである。` によって、小さい例文だけで表そうとするのではなく、結合してしまった時に分離するのが正しい順番だと思ったが、とりあえず小さい例文を考えて実装してみた
 
 ```javascript
@@ -101,9 +102,10 @@ console.log(bobSettings)
   - consoleに出力するとわかるが、UserSettingsからはUserが見えない。#でprivateなアクセサを定義できる。TypeScript3.8から使えるようだ
     - https://www.typescriptlang.org/docs/handbook/classes.html#ecmascript-private-fields
 
-# repository
+## repository
 
 https://github.com/kajirikajiri/solid-principles
+
 
 
 

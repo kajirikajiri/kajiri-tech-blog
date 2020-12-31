@@ -1,10 +1,11 @@
 ---
 title: Obsidianのベストプラクティスを読んだ
 description: Obsidianを始めようとした時、まずは真似することから始めようと思い、ベストプラクティスを調べました
-date: 2020-11-22T21:38:49.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/22 21:38:52 9c8e710</li>
 <li>2020/11/22 21:33:26 2a5c5ff</li>
 </ol></div></details>
 <!-- history area end -->
@@ -27,12 +28,12 @@ date: 2020-11-22T21:38:49.000Z
 
 <!-- toc area end -->
 
-# 結果
+## 結果
 LYTとzettelkasten[^2]に則って書くことにしました。
 LYTはもくじを書いて、後から見返しても意味がわからなくならないようにしているようでした。
 zettelkastenは1つのメモに詰め込まず、ほかのメモに必ずリンクをしていました。
 
-# Linking Your Thinking
+## Linking Your Thinking
 
 ![obsidian](./obsidian.png)
 
@@ -50,34 +51,35 @@ LYTとはLinking Your Thingsの略です。なぜLYTを使うかというと、�
 
 良さそうに見えたのでLYTとZettelkasten[^2]に則ってメモしていこうと思います。
 
-# 他の人のObsidianの見本
+## 他の人のObsidianの見本
 
 [zipファイル](https://forum.obsidian.md/uploads/short-url/eyLBgUGS0EVJeet0c3hkQTyY300.zip)に  example workflowとしてまとまっています。DLしてみると参考になるかもしれません。さらっとみましたが、LYTに則っている感じのは2/5くらいで半数くらいという印象でした。
 
 [uploadされていた記事](https://forum.obsidian.md/t/example-workflows-in-obsidian/1093)
 
-# 基本的な運用
+## 基本的な運用
 
 LYTとか見ましたが、実際の運用をどうするかイマイチ把握できませんでした。
 なので方針は独自にきめました。ctrl + tで開くdaily noteに日々のメモを書き、ctrl + shift + t にバインドした、create new zettelkastenでzettelkastenに則ったメモを書いていきます。
 create new zettelkastenはobsidianの設定>core plugins>zettelkasten prefixerをONにしないと使えないかもしれません。
 
-# ディレクトリわけ
+## ディレクトリわけ
 
 こんなかんじです
 
 ![obsidian_directory](./obsidian_directory.png)
 
-# obsidianの使い方とかが書いてるさいと
+## obsidianの使い方とかが書いてるさいと
 
 https://forum.obsidian.md/
 
-# obsidian本体
+## obsidian本体
 
 https://obsidian.md/
 
 [^1]: MOCは[Maps of Contents](https://publish.obsidian.md/lyt-kit/MOCs+Overview)です
 [^2]: Zettelkastenは[効率的なノートの書き方](https://gigazine.net/news/20200604-zettelkasten-note/)です
+
 
 
 

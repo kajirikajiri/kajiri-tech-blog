@@ -1,11 +1,11 @@
 ---
 title: denoにprした
 description: denoにgood first issueがあったのでprを出してみました
-date: 2020-11-29T21:33:15.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/11/29 21:33:17 2fdf451</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -23,15 +23,16 @@ date: 2020-11-29T21:33:15.000Z
 
 <!-- toc area end -->
 
-# denoにあったissue
+## denoにあったissue
 https://github.com/denoland/deno/issues/7487
 このissueに取り組んでJSDocを追加したのはよかったが、よく見ると一つ前のprの人が追加したファイルだった。だが、JSDocがない関数があったので、それに追加した。
 だがしかし、[ガイド](https://github.com/denoland/deno/blob/master/docs/contributing/style_guide.md#use-jsdoc-for-exported-symbols)をみると、exportするsymbolはJSDocを書きましょうとあるが、exportしないものは特に指定がなかった。なので必要なかったかもなと思いながらPRをだした。github actionのciが不要かもしれないかつ、コメントを追加しただけのprに全力でがんばっていて申し訳なかった
 
-# 失敗
-## denoland/denoをcloneしてprをだした
+## 失敗
+### denoland/denoをcloneしてprをだした
 これは成功しない。denolandから権限貰えばできるが、権限がない。
 なので、forkするのが正解だった。forkしてからdenoland/denoにprをだす。kajirikajiri/denoに出さない。
 
 どうなるかなー
+
 

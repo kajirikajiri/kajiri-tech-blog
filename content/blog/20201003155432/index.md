@@ -1,10 +1,11 @@
 ---
 title: strong-parameterにwindow.locationから渡したかった
 description: Ruby on Railsのstrong-parameterにJaraScriptのwindow.locationから値を渡す方法です
-date: 2020-11-21T20:52:28.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/21 20:52:30 01341b9</li>
 <li>2020/11/15 17:56:56 8e7d6a6</li>
 <li>2020/11/15 13:59:03 490d2a0</li>
 </ol></div></details>
@@ -22,7 +23,7 @@ date: 2020-11-21T20:52:28.000Z
 </div></details>
 
 <!-- toc area end -->
-# 結論
+## 結論
 
 ```javascript
 window.location = '/user?strong_params[name]=kajiri'
@@ -36,11 +37,12 @@ def sample_params
 end
 ```
 
-# 参考にさせていただきました
+## 参考にさせていただきました
 
 [stack overflow](https://stackoverflow.com/questions/12809072/url-parameters-with-brackets)によると、配列を渡すためのもので、postリクエストでより多く使用されている。
 
 知らんかった。
 
 railsのstrong parameterってこうなってたんや
+
 

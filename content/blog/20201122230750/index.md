@@ -1,10 +1,11 @@
 ---
 title: testcafeで見えているelementを対象にテストしたい時
 description: 'testcafeでinvisibleな要素(display none, visibility hidden)以外を対象にする方法を共有します'
-date: 2020-11-22T23:17:22.000Z
+date: 2020-12-31T21:57:22.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
+<li>2020/11/22 23:17:24 0bcbf2d</li>
 <li>2020/11/22 23:17:03 2415e38</li>
 <li>2020/11/22 23:14:52 22228f3</li>
 </ol></div></details>
@@ -25,23 +26,23 @@ date: 2020-11-22T23:17:22.000Z
 
 <!-- toc area end -->
 
-# ⭕️visibleな要素のみ
+## ⭕️visibleな要素のみ
 
 ```javascript
 Selector().filterVisible()
 ```
 
-# ❌invisibleな要素を含む
+## ❌invisibleな要素を含む
 
 ```javascript
 Selector()
 ```
 
-# reference
+## reference
 
 [testcafe](https://devexpress.github.io/testcafe/documentation/reference/test-api/selector/filtervisible.html)
 
-# 解説
+## 解説
 
 [testcafe](https://devexpress.github.io/testcafe/documentation/reference/test-api/selector/filtervisible.html)
 > The elements that do not have display: none or visibility: hidden CSS properties and have non-zero width and height are considered visible.
@@ -56,6 +57,7 @@ display: noneまたはvisibility: hiddenのCSSプロパティを持たず、widt
 - visibility: hidden;
 - width: 0;
 - height: 0;
+
 
 
 

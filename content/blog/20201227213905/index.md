@@ -1,11 +1,11 @@
 ---
 title: gatsbyのnavigateをmockしたかった(snapshotテスト)
 description: snapshotテストの時gatsby.navigateがmockできなくて困ったので共有します
-date: 2020-12-27T21:49:18.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 21:49:20 99894bb</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,21 +24,22 @@ date: 2020-12-27T21:49:18.000Z
 
 <!-- toc area end -->
 
-# これでmockできる
+## これでmockできる
 
 ```javascript
 const gatsby = jest.requireActual('gatsby')
 gatsby.navigate = jest.fn()
 ```
 
-# 自分の場合
+## 自分の場合
 snapshotでgatsby.navigateを呼び出す必要がなかったのでただmockできればよかったのでこの方法でmockしました
 stackoverflowに書いてた方法とは少し違いますがやってることは一緒だと思います
 また、この書き方でgatsbyのmockができるなら他のmoduleもmockできそうだなと思ったので詰まったときは試そうと思います
 
-# stackoverflow
+## stackoverflow
 https://stackoverflow.com/a/62649602
 
-# おまけ
+## おまけ
 gatsbyはpagesに入れればルーティングしてくれるのがすき
+
 

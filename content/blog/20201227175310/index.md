@@ -1,11 +1,11 @@
 ---
 title: 無名関数(即時関数)は返り値を返すのか
 description: 無名関数は返り値を返すのか気になったので調べました
-date: 2020-12-27T18:08:22.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 18:08:24 122944e</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -24,7 +24,7 @@ date: 2020-12-27T18:08:22.000Z
 
 <!-- toc area end -->
 
-# codesandbox
+## codesandbox
 <iframe src="https://codesandbox.io/embed/anonymous-function-ojz23?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="anonymous function"
@@ -32,10 +32,10 @@ date: 2020-12-27T18:08:22.000Z
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-# 結果
+## 結果
 返す！！
 
-# 過程
+## 過程
 関数を生成して、それを即呼び出している
 
 ここが関数
@@ -48,7 +48,7 @@ date: 2020-12-27T18:08:22.000Z
 
 最後に()を付けて呼び出し
 
-# おまけ
+## おまけ
 
 引数も取れるよ
 
@@ -57,4 +57,5 @@ date: 2020-12-27T18:08:22.000Z
   return c
 })('hoge')
 ```
+
 

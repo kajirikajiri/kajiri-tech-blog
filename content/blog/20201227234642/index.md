@@ -1,11 +1,11 @@
 ---
 title: Recoilとは
 description: Recoilとはglobal stateの管理ライブラリでした。useStateのような書き方です
-date: 2020-12-27T23:54:42.000Z
+date: 2020-12-31T21:57:23.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2020/12/27 23:54:44 4128652</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -25,13 +25,13 @@ date: 2020-12-27T23:54:42.000Z
 
 <!-- toc area end -->
 
-# 導入
+## 導入
 前回[parcelがなんなのか？](https://kajirikajiri.netlify.app/20201227211305/)気になって調べましたが今度はRecoilが気になったので調べました。
 
-# 結論
+## 結論
 global stateの管理ライブラリでした。
 
-# 書き方
+## 書き方
 
 まずは使用するglobal stateを定義します。
 
@@ -49,7 +49,7 @@ const textState = atom({
 
 たったこれだけ。便利
 
-# サンプル
+## サンプル
 
 定義箇所
 https://github.com/GeoffCox/recoil-examples/blob/master/atoms-tutorial/src/atoms.ts
@@ -58,7 +58,8 @@ https://github.com/GeoffCox/recoil-examples/blob/master/atoms-tutorial/src/atoms
 https://github.com/GeoffCox/recoil-examples/blob/70ddbfef9cd5d9fb2698f9c490d6c7c735d219c8/atoms-tutorial/src/components/ToDoItemCreator.tsx#L8
 
 
-# おまけ
+## おまけ
 型の指定もuseStateみたいで親しみがある!
 ちょいちょいきになることがあるんで調べてめもっていきます
+
 
