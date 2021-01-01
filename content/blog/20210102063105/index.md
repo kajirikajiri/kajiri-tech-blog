@@ -1,11 +1,11 @@
 ---
 title: tigのインストールと使い方(wsl2)
 description: tigをインストールして使ってみました。一行取り消しや、インストール途中で発生したエラーの修正、日本語文字化けなどに対応しました。
-date: 2021-01-02T07:59:40.000Z
+date: 2021-01-02T08:02:59.000Z
 ---
 <!-- history area start -->
 <details><summary>commit history</summary><div><ol>
-
+<li>2021/01/02 07:59:44 e10012c</li>
 </ol></div></details>
 <!-- history area end -->
 <!-- toc area start -->
@@ -13,7 +13,7 @@ date: 2021-01-02T07:59:40.000Z
 
 <!-- toc -->
 
-- [tig](#tig)
+- [tigとは](#tig%E3%81%A8%E3%81%AF)
   * [repository](#repository)
 - [environment](#environment)
 - [install](#install)
@@ -36,11 +36,11 @@ date: 2021-01-02T07:59:40.000Z
 
 <!-- toc area end -->
 
-## tig
+## tigとは
 ### repository
 https://github.com/jonas/tig
 
-tigとは？
+repositoryで説明していた。tigとは？
 
 > Tig is an ncurses-based text-mode interface for git. It functions mainly as a Git repository browser, but can also assist in staging changes for commit at chunk level and act as a pager for output from various Git commands.
 
@@ -169,4 +169,5 @@ sudo make install prefix=/usr/local/bin
 ```
 export LC_ALL=en_US.UTF-8
 ```
+
 
