@@ -43,6 +43,12 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
+        <p style={{ display: "flex", alignItems: "center" }}>
+          移転作業中です→
+          <a rel="noreferrer" target="_blank" href="https://kajiri.dev">
+            kajiri.dev
+          </a>
+        </p>
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>

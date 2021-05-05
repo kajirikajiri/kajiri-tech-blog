@@ -35,7 +35,6 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
 
   const avatar = data?.avatar?.childImageSharp?.fixed
 
@@ -45,7 +44,7 @@ const Bio = () => {
         <a
           rel="noreferrer noopener"
           target="_blank"
-          href={`https://kajirikajiri.github.io/profile/`}
+          href={`https://kajiri.dev/profile`}
         >
           <Image
             fixed={avatar}
@@ -58,15 +57,10 @@ const Bio = () => {
         </a>
       )}
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href={`https://twitter.com/${social?.twitter || ``}`}
-          >
-            You should follow them on Twitter
+        <p style={{ display: "flex", alignItems: "center" }}>
+          移転作業中です→
+          <a rel="noreferrer" target="_blank" href="https://kajiri.dev">
+            kajiri.dev
           </a>
         </p>
       )}
