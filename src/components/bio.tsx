@@ -58,7 +58,7 @@ const Bio = () => {
       )}
       {author?.name && (
         <p style={{ display: "flex", alignItems: "center" }}>
-          移転作業中です→
+          moving soon →
           <a rel="noreferrer" target="_blank" href="https://kajiri.dev">
             kajiri.dev
           </a>
