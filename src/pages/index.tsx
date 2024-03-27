@@ -59,7 +59,7 @@ const BlogIndex = ({
                 <header>
                   <h2>
                     {
-                      post.fields.slug === "20201115134137" ? (
+                      post.fields.slug === "/20201115134137/" ? (
                         <a href={post.fields.slug}>{title}</a>
                       ) : (
                         <Link to={post.fields.slug} itemProp="url">
