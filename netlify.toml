@@ -1,3 +1,10 @@
 [build]
 	publish = "public"
 	command = "npm run build"
+
+[[redirects]]
+  from = "/20201115134137/"
+  to = "https://kajiri.dev/markdown-test"
+  status = 301
+  force = true
+
