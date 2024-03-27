@@ -58,9 +58,15 @@ const BlogIndex = ({
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
+                    {
+                      post.fields.slug === "20201115134137" ? (
+                        <a href={post.fields.slug}>{title}</a>
+                      ) : (
+                        <Link to={post.fields.slug} itemProp="url">
+                          <span itemProp="headline">{title}</span>
+                        </Link>
+                      )
+                    }
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
