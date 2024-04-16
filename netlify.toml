@@ -8,3 +8,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201107180155/"
+  to = "https://kajiri.dev/vue-js-v2-comment"
+  status = 301
+  force = true
+
