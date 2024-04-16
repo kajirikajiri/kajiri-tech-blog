@@ -38,4 +38,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201206181654/"
+  to = "https://kajiri.dev/i-bought-a-smart-watch-that-notifies-me-of-slack"
+  status = 301
+  force = true
 
