@@ -28,17 +28,15 @@ date: 2020-12-31T21:57:23.000Z
 
 ## 説明
 **apple shortcutのサンプルです。iPhoneからクリックすると追加するための確認画面に飛ぶので追加して使ってください**
+
 ### Get Request
-https://www.icloud.com/shortcuts/76736669d20e4a8989f05dbd25e898cb
+https://www.icloud.com/shortcuts/ed5d74c99fe24422b21915b21571977a
 
 ### 入力してその値を表示する
-https://www.icloud.com/shortcuts/570d906472e644c887a6976e66519e33
+https://www.icloud.com/shortcuts/1b4c1b6bb91a45d9ac00b4b17f98ddc1
 
 ### ページのURLを取得して表示する
-https://www.icloud.com/shortcuts/fbb3ef4da7054ae9ba8a481394ead2e3
+https://www.icloud.com/shortcuts/dc974db2e57a40d7b9a3671eaf4fc566
 
-リンク切れあればtwitterかcontact(50件/月)に連絡をお願いします。質問・依頼も
-
-
-
+リンク切れとかは [コンタクトページ](https://kajiri.dev/contact) へ
 

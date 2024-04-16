@@ -50,3 +50,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201229180502/"
+  to = "https://kajiri.dev/apple-shortcuts-sample"
+  status = 301
+  force = true
+
