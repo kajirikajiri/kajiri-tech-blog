@@ -44,3 +44,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201205232320/"
+  to = "https://kajiri.dev/when-i-tried-to-install-solargraph-in-vscode-the-latest-version-was-included-and-an-error-occurred"
+  status = 301
+  force = true
+
