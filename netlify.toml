@@ -26,3 +26,10 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201206150441/"
+  to = "https://kajiri.dev/i-ran-ruby-base64-encode-decode-on-japanese-and-it-failed"
+  status = 301
+  force = true
+
+
