@@ -14,3 +14,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201122202639/"
+  to = "https://kajiri.dev/i-read-obsidians-best-practices"
+  status = 301
+  force = true
+
