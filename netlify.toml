@@ -32,4 +32,10 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201121231214/"
+  to = "https://kajiri.dev/v-model-is-syntax-sugar"
+  status = 301
+  force = true
+
 
