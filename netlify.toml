@@ -20,3 +20,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20201206200930/"
+  to = "https://kajiri.dev/i-am-having-trouble-with-javascript-numeric-determination"
+  status = 301
+  force = true
+
