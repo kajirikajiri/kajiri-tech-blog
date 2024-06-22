@@ -56,3 +56,50 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/20210102063105/"
+  to = "https://kajiri.dev/installation-and-usage-of-tig-wsl2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20210111220019/"
+  to = "https://kajiri.dev/checked-cookie-with-same-key-but-different-domain-attribute-js-cookie"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20201205233245/"
+  to = "https://kajiri.dev/3-plug-ins-we-are-currently-using-in-obsidian"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20201206155732/"
+  to = "https://kajiri.dev/i-was-wondering-about-the-initial-value-of-the-value-generated-by-attraccessor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20201128200327/"
+  to = "https://kajiri.dev/i-ran-an-empty-act-in-react-and-the-error-disappeared"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20201122230750/"
+  to = "https://kajiri.dev/when-you-want-to-test-an-element-that-is-visible-in-testcafe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20201206195934/"
+  to = "https://kajiri.dev/it-looks-like-reactcreateelement-handles-arrays-just-fine"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "https://kajiri.dev"
+  status = 301
+  force = true
